@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         
-                  </div>
+                </div>
                   
               </div>
           </div>
@@ -128,35 +128,93 @@
 
                                 
                                 <div class="tab-pane-filterform">
-                                    <form name="job-filterform" class="row">
-                                        <div class="col">
-                                            <div class="form-group row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
-                                                <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="inputPassword" placeholder="Password">
+                                    <form name="job-filterform" class="job-filterform row reset-margin">
+                                        <div class="col job-filterform-col">
+                                            <div class="form-group row mb-4 mx-0">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Rechercher</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="form-group gsmform-search-group has-search">
+                                                        <input type="text" class="form-control" placeholder="Search">
+                                                        <span class="fa fa-search form-control-feedback filter-search-icon"></span>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
-                                            <div class="form-group row">
-                                                <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
-                                                <div class="col-sm-9">
-                                                <select id="inputState" class="form-control">
-                                                    <option selected>Choose...</option>
-                                                    <option>...</option>
-                                                </select>
+                                            <div class="form-group row reset-margin">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Ville</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="dropdown gsmDropdown">
+                                                        <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            Location
+                                                        </a>
+                                                        <ul class="dropdown-menu gsm-dropdown-menu" style="">
+                                                            <hr />
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Paris
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Italy
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Germany
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
-                                            <div class="form-group row">
-                                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                                                <div class="col-sm-10">
-                                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                        <div class="col-1 job-filterform-col"></div>
+                                        <div class="col job-filterform-col">
+                                            <div class="form-group row mb-4 mx-0">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Nom du poste</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="dropdown gsmDropdown">
+                                                        <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            Designation
+                                                        </a>
+                                                        <ul class="dropdown-menu gsm-dropdown-menu" style="">
+                                                            <hr />
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Designer
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Developer
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group row">
-                                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                                                <div class="col-sm-10">
-                                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                            <div class="form-group row reset-margin">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Type de contrat</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="dropdown gsmDropdown">
+                                                        <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            Part time / Full time
+                                                        </a>
+                                                        <ul class="dropdown-menu gsm-dropdown-menu" style="">
+                                                            <hr />
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Part time
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Full time
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -418,6 +476,20 @@
                                                 </div>
                                             </div>
                                       </div>
+
+                                      <nav class="text-right page-navigation-list">
+                                            <ul class="page-navigation">
+                                                <span class="page-nav-icon page-left-icon">
+                                                    <img src="images/next-page-icon.png" />
+                                                </span>
+                                                <li class="page-link"><a href="#">1</a></li>
+                                                <li class="page-link active"><a href="#">2</a></li>
+                                                <li class="page-link"><a href="#">3</a></li>
+                                                <span class="page-nav-icon page-right-icon">
+                                                    <img src="images/prev-page-icon.png" />
+                                                </span>
+                                            </ul>
+                                      </nav>
                                       
                                       
                                   </div>
@@ -437,6 +509,103 @@
                                 <div class="tab-pane-banner">
                                     <img src="images/taba-banner-requirement_2.png" class="img-fluid"/>
                                 </div>
+
+                                <div class="tab-pane-filterform">
+                                    <form name="job-filterform" class="job-filterform row reset-margin">
+                                        <div class="col job-filterform-col">
+                                            <div class="form-group row mb-4 mx-0">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Rechercher</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="form-group gsmform-search-group has-search">
+                                                        <input type="text" class="form-control" placeholder="Search">
+                                                        <span class="fa fa-search form-control-feedback filter-search-icon"></span>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="form-group row reset-margin">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Ville</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="dropdown gsmDropdown">
+                                                        <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            Location
+                                                        </a>
+                                                        <ul class="dropdown-menu gsm-dropdown-menu" style="">
+                                                            <hr />
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Paris
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Italy
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Germany
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-1 job-filterform-col"></div>
+                                        <div class="col job-filterform-col">
+                                            <div class="form-group row mb-4 mx-0">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Nom du poste</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="dropdown gsmDropdown">
+                                                        <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            Designation
+                                                        </a>
+                                                        <ul class="dropdown-menu gsm-dropdown-menu" style="">
+                                                            <hr />
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Designer
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Developer
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row reset-margin">
+                                                <label for="inputPassword" class="col-sm-4 col-form-label align-self-center reset-padding">Type de contrat</label>
+                                                <div class="col-sm-8 align-self-center reset-padding">
+                                                    <div class="dropdown gsmDropdown">
+                                                        <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            Part time / Full time
+                                                        </a>
+                                                        <ul class="dropdown-menu gsm-dropdown-menu" style="">
+                                                            <hr />
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Part time
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" class="gsm-dropdown-link">
+                                                                    Full time
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+
+                                </div>
+
                                 <div id="jobs-accordian" class="col-md-12 reset-padding job-accordian-list">
                                   <div class="accordion" id="job">
                                       <div class="card">
@@ -690,23 +859,78 @@
                                                 </div>
                                             </div>
                                       </div>
-                                      
+                                      <nav class="text-right page-navigation-list">
+                                            <ul class="page-navigation">
+                                                <span class="page-nav-icon page-left-icon">
+                                                    <img src="images/next-page-icon.png" />
+                                                </span>
+                                                <li class="page-link"><a href="#">1</a></li>
+                                                <li class="page-link active"><a href="#">2</a></li>
+                                                <li class="page-link"><a href="#">3</a></li>
+                                                <span class="page-nav-icon page-right-icon">
+                                                    <img src="images/prev-page-icon.png" />
+                                                </span>
+                                            </ul>
+                                      </nav>
                                       
                                   </div>
                               </div>
                             </div>
-
+                    
                             
                         </div>
-
-                        
-
-                        
-
-
-                        
                     </div>
                 </div>   
+                
+                <div class="carrer-application-formSection">
+                    <div class="container container-70 reset-padding">
+                        <div class="application-section">
+                            <p class="individual-text application-form-intro">
+                                Si aucun poste ci-dessus ne te correspond, tu peux nous transmettre ta candidature 
+                                spontanée ci-dessous. Nous sommes toujours en recherche des perles rares
+                            </p>
+                            <form>
+                                <div class="form-row twospaces-row reset-margin">
+                                    <div class="form-group gsm-form-group col-md-6">
+                                    <label class="gsm-form-label individual-text">Prénom <span style="color:#EC0040;">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Enter your full name">
+                                    </div>
+                                    <div class="form-group gsm-form-group col-md-6">
+                                    <label class="gsm-form-label individual-text">Nom <span style="color:#EC0040;">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Enter your full name">
+                                    </div>
+                                </div>
+                                <div class="form-row twospaces-row reset-margin">
+                                    <div class="form-group gsm-form-group col-md-6">
+                                    <label class="gsm-form-label individual-text">Numéro de téléphone <span style="color:#EC0040;">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Enter your Phone Number">
+                                    </div>
+                                    <div class="form-group gsm-form-group col-md-6">
+                                    <label class="gsm-form-label individual-text">Adresse e-mail <span style="color:#EC0040;">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Veuillez saisir">
+                                    </div>
+                                </div>
+                                <div class="form-row twospaces-row reset-margin">
+                                    <div class="form-group gsm-form-group col-md-6">
+                                    <label class="gsm-form-label individual-text">Post Applied for <span style="color:#EC0040;">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Enter your Phone Number">
+                                    </div>
+                                    <div class="form-group gsm-form-group col-md-6">
+                                    <label class="gsm-form-label individual-text">Chargez votre CV <span style="color:#EC0040;">*</span></label>
+                                    <div class="file-upload-wrapper col-lg-12 col-md-12 col-sm-12" data-text="File name will appear here ">
+                                        <input name="file-upload-field" type="file" class="file-upload-field" value="">
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center mt-4">
+                                <button type="button" class="btn gsm-bg-individual btn-gsm-lg">Soumettre</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 
                 
           </section>
@@ -720,7 +944,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/mdb.min.js"></script>
   <script src="js/owl.carousel.js"></script>
   <script src="js/main.js"></script>
 

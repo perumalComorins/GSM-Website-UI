@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-touch">
+<html>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
  
@@ -75,53 +75,178 @@
               <?php include 'includes/header.php'; ?>
           </header>
           <div class="site-bannersection">
-              <div class="company-page-banner banner-content">
-                  <div class="container container-65 reset-padding">
-                      <div class="row reset-margin">
-                          <div class="col-md-7 banner-left-col align-self-end">
-                              <h2 class="individual-text">Montez en compétence avec votre EQUIPE</h2>
-                              <p class="individual-text">
-                                Augmentez votre taux de réparabilité, diminuez votre taux de retour 
-                                grâce à de nouvelles compétences et devenez pionnier de la filière de la réparation.
-                              </p>
-                              <button type="button" class="btn gsm-bg-individual btn-gsm-lg">S’inscrire</button>
-                          </div>
-                          <div class="col-md-5 banner-right-col reset-padding" style="background-image: url('images/gsmmaster-logo-blue.png');">
-                              <img src="images/company-bg-pic.png" />
+              <div class="indicator-view fullsize-banner" style="background-image: url('images/background_banner.png');">
+                      <div class="container container-70 indicator-content reset-padding">
+                          <div class="row content-row">
+                            <div class="col-md-7 title-banner text-left align-self-center">
+                                <h2>Comprendre la certification</h2>
+                                <p>
+                                  La certification est une reconnaissance d'état de la qualité d'un diplôme.
+                                  Le titre de « Réparateur/trice de produits nomades" est inscrit au RNCP 
+                                  (Répertoire national des certifications professionnelles) de niveau 4. 
+                                  La formation vous permet d'avoir un niveau équivalent du niveau BAC. 
+                                  Ce qui vous permet de faire reconnaître vos compétences dans le secteur de 
+                                  la réparation ou de poursuivre vos études.
+                                </p>
+                                  <button type="button" class="btn gsm-bg-white btn-gsm-md mr-4">En savoir plus</button>
+                                  <button type="button" class="btn gsm-bg-individual btn-gsm-md">Inscrivez-vous</button>
+                            </div>
+                            <div class="col-md-5 picture-banner">
+                                <img src="images/squre.jpg" class="img-fluid rounded-circle"/>
+                            </div>
                           </div>
                       </div>
-                  </div>
               </div>
               
           </div>
           
           <section class="site-body-container">
-              <div class="registeration-box">
-                  <!-- 
-                  <div class="container container-60 reset-padding text-center register-box-top">
-                      <p class="reg-intro-content">
-                        Découvrez nos formations et notre certification afin de monter en compétence 
-                        et vous faire certifier pour le titre niveau 4 "Réparateur(trice) de produits nomades
-                      </p>
-                      <button type="button" class="btn gsm-bg-individual btn-gsm-lg">S’inscrire</button>
-                  </div> 
-                  -->
-                  <div class="container container-70 reset-padding text-center register-box-bottom">
-                      <h2 class="section-title individual-text">Bâtissez votre équipe avec les <span class="partner-text text-uppercase">Competences</span> de demain</h2>
-                      <p class="section-content individual-text">
-                        Découvrez nos formations personnalisables et devenez incollables sur l'indice de réparabilité, 
-                        la réparation en sécurité et en conformité ou encore l'initiation à la microsoudure. 
-                        Toujours dispensées par des professionnels du secteur. Nous adaptons nos formations à vos besoins 
-                        et à ceux de vos équipes.
-                      </p>
-                  </div>
-              </div>
+                <div class="container container-65 reset-padding certificate-contentarea">
+                    <div class="content-spaces">
+                      <h2>La certification qu’est ce que c’est ?</h2>
+                      <p>« L’article L. 6113-1 du Code du Travail créé par la loi n°2018-771 du 5 septembre 2018 pour la
+                        liberté de choisir son avenir professionnel précise que « les certifications professionnelles
+                        enregistrées au RNCP permettent une validation des compétences et des connaissances
+                        acquises nécessaires à l’exercice d’activités professionnelles. Elles sont définies notamment
+                        par :</p>
+                      <ul>
+                        <li>Un référentiel d’activités qui décrit les situations de travail et les activités exercées, les
+                        métiers ou emplois visés.
+                        </li>
+                        <li>Un référentiel de compétences qui identifie les compétences et les connaissances, y compris
+                        transversales, qui en découlent.</li>
+                        <li>Un référentiel d’évaluation qui définit les critères et les modalités d’évaluation des acquis.
+                        Les certifications professionnelles sont classées par niveau de qualification et domaine d’activité
+                        […] et sont constituées de blocs de compétences, ensembles homogènes et cohérents de
+                        compétences contribuant à l’exercice autonome d’une activité professionnelle et pouvant être
+                        évaluées et validées. » (France compétence)</li>
+                      </ul>
 
-              <div class="container container-85 reset-padding">
-                <div id="satisfaction-slider" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="hover">
-                  <div class="carousel-inner">
-                      <div class="carousel-item active">
-                          <div class="row mx-0">
+                    </div>
+                    <div class="content-spaces">
+                      <h2>La certification de GSM Master</h2>
+                      <p>Notre certification se base sur deux qualités essentielles. 
+                        Tout d’abord vous former à l’intégralité du métier de réparateur.  
+                        Cette formation comprend tous les aspects du métier : 
+                        l’accueil client,  le recueil du besoin, le diagnostic, la communication, 
+                        la législation, l’économie circulaire et la réparation. Notre deuxième 
+                        outil est une méthodologie bâtie par des professionnels ayant obtenu le plus 
+                        haut niveau d’agrément du premier constructeur mondial. Cette méthodologie vous permettra 
+                        d’appréhender tous types de produits nomades et de pannes en sécurité et en conformité.
+                      </p>
+                      <p>Nous vous transmettons toutes les clefs pour vous rendre autonome dans 
+                        votre activité de réparateur/trice. GSM Master est implanté dans toute la France, 
+                        trouvez ci-dessous le centre de formation le plus proche de chez vous.</p>
+                    </div>
+                    <div class="content-spaces">
+                      <h2>La certification pour qui ?</h2>
+                      <p>
+                      Nous donnons à tous la possibilité de réussir la certification et de s’épanouir. 
+                      Les tests de prérequis sont accessibles au plus grand nombre : 
+                      comprendre le français (lu, parlé, écrit) ; connaître les quatre opérations mathématiques. 
+                      Cette formation est éligible aux dispositifs de prise en charge pour l’apprentissage, 
+                      la professionnalisation, la VAE, les projets de transitions professionnelles et transitions collectives. 
+                      </p>
+                      <p>Nous vous transmettons toutes les clefs pour vous rendre autonome dans 
+                        votre activité de réparateur/trice. GSM Master est implanté dans toute la France, 
+                        trouvez ci-dessous le centre de formation le plus proche de chez vous.</p>
+                    </div>
+                    
+                </div>
+                <div class="container container-75 reset-padding certificate-cardarea">
+                    <div class="row justify-content-center mx-0 mb-5">
+                          <div class="service-block col-lg-4 col-md-12 col-sm-12 reset-padding mr-right-100">
+                            <div class="service card">
+                              <div class="service-title d-table text-center">
+                                <div class="service-title-innerwrapper d-table-cell align-middle">
+                                  <h2>Particulier</h2>
+                                </div>
+                              </div>
+                              <div class="service-body">
+                                <p>Vous n'avez aucune expérience dans la réparation mais êtes intéressé par ce secteur. 
+                                  Vous souhaitez vous inscrire à la certification pour obtenir des compétences 
+                                  professionnelles à valoriser.</p>
+                              </div>
+                              <div class="service-footer d-table text-center">
+                                <div class="service-footer-innerwrapper d-table-cell align-middle">
+                                  <button type="button" class="btn gsm-bg-individual btn-block py-3" >Inscrivez-vous</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="service-block col-lg-4 col-md-12 col-sm-12 reset-padding">
+                            <div class="service card">
+                              <div class="service-title d-table text-center">
+                                <div class="service-title-innerwrapper d-table-cell align-middle">
+                                  <h2>Salarié du secteur</h2>
+                                </div>
+                              </div>
+                              <div class="service-body">
+                                <p>Vous êtes indépendant et/ou salarié dans la réparation de produits nomades depuis plus    
+                                   d’1 an et vous voulez faire reconnaître vos compétences grâce à la certification. 
+                                   Téléchargez le livret 1 et accédez à une VAE (validation d'acquis par l’expérience).</p>
+                              </div>
+                              <div class="service-footer d-table text-center">
+                                <div class="service-footer-innerwrapper d-table-cell align-middle">
+                                  <button type="button" class="btn gsm-outline-individual btn-block py-3" >Certifiez vos compétences</button>
+                                </div>  
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="row justify-content-center reset-margin">
+                          <div class="service-block col-lg-4 col-md-12 col-sm-12 reset-padding">
+                            <div class="service card">
+                              <div class="service-title d-table text-center">
+                                <div class="service-title-innerwrapper d-table-cell align-middle">
+                                  <h2>Entreprise</h2>
+                                </div>
+                              </div>
+                              <div class="service-body">
+                                <p>
+                                  Vous représentez une entreprise et  souhaitez faire reconnaitre la qualité de vos techniciens. 
+                                  Votre équipe a besoin de monter en compétence et de réduire les retours ou vous souhaitez 
+                                  former vos équipes à la micro soudure.
+                                </p>
+                              </div>
+                              <div class="service-footer d-table text-center">
+                                <div class="service-footer-innerwrapper d-table-cell align-middle">
+                                  <button type="button" class="btn gsm-bg-company btn-block py-3" >Perfectionnez vos équipes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="service-block col-lg-4 col-md-12 col-sm-12 px-3 align-self-center">
+                              <h2 class="service-textwrapp">Soyez l’acteur du changement</h2>
+                          </div>
+                          <div class="service-block col-lg-4 col-md-12 col-sm-12 reset-padding">
+                            <div class="service card">
+                              <div class="service-title d-table text-center">
+                                <div class="service-title-innerwrapper d-table-cell align-middle">
+                                  <h2>Partenaire</h2>
+                                </div>
+                              </div>
+                              <div class="service-body">
+                                <p>
+                                  Vous êtes un organisme de formation ou une organisation qui souhaite collaborer 
+                                  au développement de la certification et contribuer à normer la filière de la réparation. 
+                                  Venez présenter les synergies de votre activité avec nous.
+                                </p>
+                              </div>
+                              <div class="service-footer d-table text-center">
+                                <div class="service-footer-innerwrapper d-table-cell align-middle">
+                                  <button type="button" class="btn gsm-bg-partner btn-block py-3" >Collaborons</button>
+                                </div>  
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="container container-75 reset-padding certificate-satisfaction-card">
+                    <h2>Nos Collaborations</h2>
+                    <div class="row mx-0 mt-5">
                                 <div class="card satisfaction-card col-sm-6">
                                   <figure>
                                           <label class="satisfaction-label">Satisfaction 100%</label>
@@ -200,13 +325,12 @@
                                           </figcaption>
                                   </figure>
                                 </div>
-
                                 <div class="card satisfaction-card col-sm-6">
                                   <figure>
                                           <label class="satisfaction-label">Satisfaction 100%</label>
                                           <div class="card-body froentside-panel row reset-margin">
                                             <div class="col content-block">
-                                              <h5 class="card-title">Repair Safety and Compliance - 2</h5>
+                                              <h5 class="card-title">Repair Safety and Compliance - 1</h5>
                                               <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
                                                 the basics of a diagnosis and intervention carried out in safety and compliance </p> 
                                             </div>
@@ -279,17 +403,12 @@
                                           </figcaption>
                                   </figure>
                                 </div>
-                            </div>
-                      </div>
-
-                      <div class="carousel-item">
-                          <div class="row mx-0">
                                 <div class="card satisfaction-card col-sm-6">
                                   <figure>
                                           <label class="satisfaction-label">Satisfaction 100%</label>
                                           <div class="card-body froentside-panel row reset-margin">
                                             <div class="col content-block">
-                                              <h5 class="card-title">Repair Safety and Compliance - 3</h5>
+                                              <h5 class="card-title">Repair Safety and Compliance - 1</h5>
                                               <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
                                                 the basics of a diagnosis and intervention carried out in safety and compliance </p> 
                                             </div>
@@ -362,13 +481,12 @@
                                           </figcaption>
                                   </figure>
                                 </div>
-
                                 <div class="card satisfaction-card col-sm-6">
                                   <figure>
                                           <label class="satisfaction-label">Satisfaction 100%</label>
                                           <div class="card-body froentside-panel row reset-margin">
                                             <div class="col content-block">
-                                              <h5 class="card-title">Repair Safety and Compliance - 4</h5>
+                                              <h5 class="card-title">Repair Safety and Compliance - 1</h5>
                                               <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
                                                 the basics of a diagnosis and intervention carried out in safety and compliance </p> 
                                             </div>
@@ -441,376 +559,12 @@
                                           </figcaption>
                                   </figure>
                                 </div>
-                            </div>
-                        </div>
                     </div>
-                     <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                      <li data-target="#satisfaction-slider" data-slide-to="0" class="active"></li>
-                      <li data-target="#satisfaction-slider" data-slide-to="1"></li>
-                    </ul>
-                    
                 </div>
-              </div>
 
-              <div class="faq-section company-bg">
-                  <div class="container container-70 reset-padding">
-                      <div class="row reset-margin">
-                            <div id="main" class="col-md-6 reset-padding faq-accordian-list">
-                                <h2 class="title">Frequently asked questions</h2>
-                                <div class="accordion" id="faq">
-                                    <div class="card">
-                                        <div class="card-header" id="faqhead1">
-                                            <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
-                                            aria-expanded="true" aria-controls="faq1">Enter your questions here</a>
-                                        </div>
-
-                                        <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
-                                            <div class="card-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                                                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqhead2">
-                                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
-                                            aria-expanded="true" aria-controls="faq2">This is how it will appear when the question is in two lines for a particular FAQ.</a>
-                                        </div>
-
-                                        <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
-                                            <div class="card-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                                                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqhead3">
-                                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
-                                            aria-expanded="true" aria-controls="faq3">Enter your questions here</a>
-                                        </div>
-
-                                        <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
-                                            <div class="card-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                                                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="pull-right mt-4">
-                                      <a class="faqView_more" href="#">View more</a>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                            <div class="col-md-1 reset-padding d-none d-md-block">
-                            </div>
-
-                            <div class="col-md-5 reset-padding faq-accordian-slider">
-                                <span class="faq-label company-text">What people say</span>
-                                <div id="faqIndicators" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
-                                      <div class="carousel-inner">
-                                          <div class="carousel-item faq-item active">
-                                              <div class="faqMember-thumbnail">
-                                                  <span class="faqequals-quotes">=</span>
-                                                  <img src="images/faq-thumb-1.png" class="img-fluid"/>
-                                                  <div class="triangleBox"></div>
-                                              </div>
-                                              <p class="fag-content">
-                                                Present in the mobile telephony market since 1999, 
-                                                GSM Master founded its training center at the end of 2014 with the aim of 
-                                                contributing to the standardization of the mobile product repair sector by 
-                                                offering complete and certifying training, allowing everyone to exercise 
-                                                the profession of repairer in full compliance and safety.
-                                              </p>
-                                              <h3 class="faqmemberName">Kim Joe <span class="faqmemberDesignation">Highschool</span></h3>
-                                          </div>
-                                          <div class="carousel-item faq-item">
-                                              <div class="faqMember-thumbnail">
-                                                  <span class="faqequals-quotes">=</span>
-                                                  <img src="images/faq-thumb-1.png" class="img-fluid"/>
-                                                  <div class="triangleBox"></div>
-                                              </div>
-                                              <p class="fag-content">
-                                                Present in the mobile telephony market since 1999, 
-                                                GSM Master founded its training center at the end of 2014 with the aim of 
-                                                contributing to the standardization of the mobile product repair sector by 
-                                                offering complete and certifying training, allowing everyone to exercise 
-                                                the profession of repairer in full compliance and safety.
-                                              </p>
-                                              <h3 class="faqmemberName">Kim Joe <span class="faqmemberDesignation">Highschool</span></h3>
-                                          </div>
-                                      </div>
-                                      <div class="faq-Nav">
-                                          <a class="carousel-control-prev faq-prev" href="#faqIndicators" role="button" data-slide="prev">
-                                            <img src="images/testimonial-arrow-left.png" />
-                                            <span class="sr-only">Previous</span>
-                                          </a>
-                                          <span class="faq_num"></span>
-                                          <a class="carousel-control-next faq-next" href="#faqIndicators" role="button" data-slide="next">
-                                          <img src="images/testimonial-arrow-right.png" />
-                                            <span class="sr-only">Next</span>
-                                          </a>
-                                      </div>
-                                </div>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="training-initial-formSection">
-                  <div class="container container-70 reset-padding">
-                      <h3 class="train-title individual-text text-center">Transformez vos équipes !</h3>
-                      <div class="register-section">
-                          <h3 class="reg-session-title individual-text">S’inscrire pour notre prochaine session</h3>
-                          <form class="register-initial-form">
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Choisissez votre cours</label>
-                                  <div class="dropdown gsmDropdown">
-                                      <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                        Nom du cours
-                                      </a>
-                                      <ul class="dropdown-menu gsm-dropdown-menu" style="">
-                                        <hr />
-                                        <li><a href="#" class="gsm-dropdown-link">Certification niveau 4</a></li>
-                                        <li><a href="#" class="gsm-dropdown-link">Certification niveau 3</a></li>
-                                        <li><a href="#" class="gsm-dropdown-link">Indicateurs de qualité</a></li>
-                                      </ul>
-                                  </div>
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Choisissez votre localisation</label>
-                                  <div class="dropdown gsmDropdown">
-                                      <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                        Nom de la ville
-                                      </a>
-                                      <ul class="dropdown-menu gsm-dropdown-menu" style="">
-                                        <hr />
-                                        <li>
-                                          <a href="#" class="gsm-dropdown-link">
-                                            <span class="handicaped-label">Paris</span>
-                                            <span class="motor-handicaped">
-                                              <img src="images/handicaped.png" class="handicap-icon" /> 
-                                              <img src="images/eye-disabled.png" class="handicap-icon" /> 
-                                              <img src="images/ear-disabled.png" class="handicap-icon" />
-                                            </span>
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href="#" class="gsm-dropdown-link">
-                                            <span class="handicaped-label">Lyon</span>
-                                            <span class="motor-handicaped">
-                                              <img src="images/handicaped.png" class="handicap-icon" /> 
-                                              <img src="images/eye-disabled.png" class="handicap-icon" />
-                                            </span>
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href="#" class="gsm-dropdown-link">
-                                            <span class="handicaped-label">Marseille</span>
-                                            <span class="motor-handicaped">
-                                              <img src="images/handicaped.png" class="handicap-icon" /> 
-                                              <img src="images/eye-disabled.png" class="handicap-icon" />
-                                            </span>
-                                          </a>
-                                        </li>
-                                      </ul>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group gsm-form-group">
-                                <label class="gsm-form-label individual-text">Choisissez votre date</label>
-                                <div class="dropdown gsmDropdown">
-                                      <a class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                        05 julliet 2021 to 06 Septembre 2021 - Fore Noon
-                                      </a>
-                                      <ul class="dropdown-menu gsm-dropdown-menu" style="">
-                                        <hr />
-                                        <li>
-                                          <a href="#" class="gsm-dropdown-link">
-                                            <span class="handicaped-label">10 Mai 2022 to  5 Decembre 2022 - After Noon</span>
-                                            <span class="motor-handicaped">
-                                              <img src="images/handicaped.png" class="handicap-icon" /> 
-                                              <img src="images/eye-disabled.png" class="handicap-icon" /> 
-                                              <img src="images/ear-disabled.png" class="handicap-icon" />
-                                            </span>
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href="#" class="gsm-dropdown-link">
-                                            <span class="handicaped-label">10 Mai 2022 to  5 Decembre 2022 - After Noon</span>
-                                            <span class="motor-handicaped">
-                                              <img src="images/handicaped.png" class="handicap-icon" /> 
-                                              <img src="images/eye-disabled.png" class="handicap-icon" />
-                                            </span>
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href="#" class="gsm-dropdown-link">
-                                            <span class="handicaped-label">10 Mai 2022 to  5 Decembre 2022 - After Noon</span>
-                                            <span class="motor-handicaped">
-                                              <img src="images/handicaped.png" class="handicap-icon" /> 
-                                              <img src="images/eye-disabled.png" class="handicap-icon" />
-                                            </span>
-                                          </a>
-                                        </li>
-                                      </ul>
-                                  </div>
-                            </div>
-                            
-                          </form>
-                      </div>
-                      
-                  </div>
-              </div>
-              
-              <div class="container container-65 reset-padding">
-                <p class="individual-text text-center gsm-site-para">
-                    Nos formations sont accessibles aux personnes en situation de handicap. 
-                    Si vous avez des besoins spécifiques, n'hésitez pas à en informer notre référent handicap : 
-                    Clément Berger de Nomazy sur l'adresse "relation-candidat@gsmmaster.fr"
-                </p>
-              </div>
-
-              <div class="container container-55 query-blog-container reset-padding">
-                  <div class="row reset-margin">
-                      <div class="col query-column reset-padding">
-                        <p class="query-text individual-text text-right">If you have any questions in filling this application or curriculum related questions ask us here.</p>
-                      </div>
-                      <div class="col query-column reset-padding text-center">
-                        <button type="button" class="btn gsm-bg-individual btn-gsm-lg">Une Question?</button>
-                      </div>
-                  </div>
-              </div>
-              
-              <div class="training-regitration-formSection">
-                  <div class="container container-70 reset-padding">
-                      <div class="register-section">
-                          <form class="register-registration-form">
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Prénom*</label>
-                                  <input type="text" class="form-control" placeholder="Prénom">
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Nom*</label>
-                                  <input type="text" class="form-control" placeholder="Nom">
-                                </div>
-                            </div>
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Email*</label>
-                                  <input type="text" class="form-control" placeholder="Adresse mail">
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Téléphone*</label>
-                                  <input type="text" class="form-control" placeholder="01 40 05 03 43">
-                                </div>
-                            </div>
-
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Date de naissance*</label>
-                                  <input type="date" class="form-control" placeholder="12/09/1985">
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <div class="form-row twospaces-row reset-margin">
-                                      <div class="form-group gsm-form-group col-md-6">
-                                          <label class="gsm-form-label individual-text">Demandeur d’emploi*</label>
-                                          <div class="dropdown gsmDropdown">
-                                              <a type="button" class="dropdown-toggle gsm-dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                Oui / Non
-                                              </a>
-                                              <ul class="dropdown-menu gsm-dropdown-menu" style="">
-                                                <hr />
-                                                <li><a href="#" class="gsm-dropdown-link">Oui</a></li>
-                                                <li><a href="#" class="gsm-dropdown-link">Non</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                      <div class="form-group gsm-form-group col-md-6">
-                                        <label class="gsm-form-label individual-text">Si oui identifiant PE</label>
-                                        <input type="text" class="form-control" placeholder="ID Pôle emploi">
-                                      </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="form-row singlespace-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-12">
-                                  <label class="gsm-form-label individual-text">Adresse Postale*</label>
-                                  <input type="text" class="form-control" placeholder="Numéro et libellé de la voie">
-                                </div>
-                            </div>
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Code postal*</label>
-                                  <input type="text" class="form-control" placeholder="Code postale">
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Pays*</label>
-                                  <input type="text" class="form-control" placeholder="Pays de résidence">
-                                </div>
-                            </div>
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Etat*</label>
-                                  <input type="text" class="form-control" placeholder="Etat de résidence">
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Ville*</label>
-                                  <input type="text" class="form-control" placeholder="Ville de résidence">
-                                </div>
-                            </div>
-                            <div class="form-row twospaces-row reset-margin">
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <div class="reset-padding">
-                                    <label class="gsm-form-label individual-text">Avez-vous de l’expérience dans la réparation ? </label>
-                                    <input type="text" class="form-control" placeholder="Etat de résidence">
-                                  </div>
-                                  <div class="reset-padding mt-4">
-                                    <label class="gsm-form-label individual-text">Vous nous avez connu via </label>
-                                    <input type="text" class="form-control" placeholder="Etat de résidence">
-                                  </div>
-                                </div>
-                                <div class="form-group gsm-form-group col-md-6">
-                                  <label class="gsm-form-label individual-text">Votre demande</label>
-                                  <textarea class="form-control" placeholder="Préciser votre demande" rows="5"></textarea>
-                                </div>
-                            </div>
-                            
-                            <p class="regitration-disclaimer">By submitting your info in the form above, you agree to our Terms of Use and Privacy Policy. 
-                              We may use this info to contact you and/or use data from third parties to personalize your 
-                              experience.</p>
-                            <div class="text-center">
-                              <button type="button" class="btn gsm-bg-individual btn-gsm-lg">Je m’inscris</button>
-                            </div>
-                            
-                          </form>
-                      </div>
-                  </div>
-              </div>
+                
           </section>
-          
-          <?php include 'includes/highlighted-footer.php'; ?>   
-          
+
           <footer class="site-footer">
             <?php include 'includes/footer.php'; ?>
           </footer>  
@@ -820,7 +574,58 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.js"></script>
+  
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+
+        function bootstrapTabControl(){
+            var i, items = $('.tab-nav-link'), pane = $('.tab-pane');
+            // next
+            $('.nexttab').on('click', function(){
+                for(i = 0; i < items.length; i++){
+                    if($(items[i]).hasClass('active') == true){
+                        break;
+                    }
+                }
+                if(i < items.length - 1){
+                    // for tab
+                    $(items[i]).removeClass('active');
+                    $(items[i+1]).addClass('active');
+                    // for pane
+                    $(pane[i]).addClass('left')
+                    
+                    setTimeout(function() {
+                        $(pane[i]).removeClass('left');
+                        $(pane[i]).removeClass('show active');
+                        $(pane[i+1]).addClass('show active');
+                    }, 500);
+                    
+                }
+
+            });
+            // Prev
+            $('.prevtab').on('click', function(){
+                for(i = 0; i < items.length; i++){
+                    if($(items[i]).hasClass('active') == true){
+                        break;
+                    }
+                }
+                
+                if(i != 0){
+                    // for tab
+                    $(items[i]).removeClass('active');
+                    $(items[i-1]).addClass('active');
+                    // for pane
+                    $(pane[i]).addClass('left');
+                    setTimeout(function() {
+                        $(pane[i]).removeClass('left');
+                        $(pane[i]).removeClass('show active');
+                        $(pane[i-1]).addClass('show active');
+                    }, 500);
+                }
+            });
+        }
+        bootstrapTabControl();
+    </script>
 </body>
 </html>

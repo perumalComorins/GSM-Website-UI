@@ -182,15 +182,19 @@ $(window).on('load', function(){
             $(this).width($w).height($h);
         });
 
-
-
         $('.testimonials_overlay').each(function(){
             $h = $('.testimonial_box').height();
             $w = $('.testimonial_box').width();
             $(this).width($w).height($h);
         });
+
+        /*** Indicators banner ***/
         
-        
+        $(".twobyfour-banner-cover-overlay").each(function(){
+            $h = $('.twofourth-size-banner img').height();
+            $w = $('.twofourth-size-banner img').width();
+            $(this).width($w).height($h);
+        });
 
      }
      resizeBannerOverlays();

@@ -1,6 +1,21 @@
-<div class="container container-85 reset-padding">
+<div class="container site-header-container reset-padding">
     <nav class="site-navigation navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/site-logo-white.png" style="width:192px;" /></a>
+        <a class="navbar-brand" href="#"><img src="images/site-logo-white.png" class="site-logo"/></a>
+        <div class="searchBar-mb d-block d-lg-none">  
+            <a href="#" class="search-form-trigger" data-toggle="search-form">
+                <i class="fa fa-search" aria-hidden="true" data-toggle="search-form"></i>
+            </a>
+            <div class="togglesearch">
+                <div class="togglesearch-wrapper mx-auto">
+                    <input type="text" placeholder="What do you want" />
+                    <button type="button" class="btn btn-search-gsm gsm-bg-individual border-0 rounded-1">
+                        <img src="images/icon-feather-search.png" style="width:16px;height:16px;"/>
+                    </button>
+                    <span class="input-group-addon search-close gsm-bg-white" id="basic-addon2"><i class="fa fa-window-close" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
         <div class="main-nav collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">

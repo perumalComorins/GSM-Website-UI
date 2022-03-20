@@ -452,8 +452,14 @@ a:hover{
     background: #4EBDE4;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, .16)
 }
+.site-header-container{
+    max-width: 85%;
+}
 .site-navigation .navbar-brand{
     margin-right: 85px;
+}
+.site-navigation .site-logo{
+    width:192px;
 }
 .site-navigation ul.navbar-nav li.nav-item{
     border-right:1px solid #ffffff;
@@ -1161,11 +1167,11 @@ footer{
     color: #3F589E;
     
 }
-#satisfaction-slider .carousel-indicators{
+.satisfaction-slider .carousel-indicators{
     position:inherit;
     margin:65px auto 45px auto;
 }
-#satisfaction-slider .carousel-indicators li{
+.satisfaction-slider .carousel-indicators li{
     width: 15px;
     height: 15px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -1173,7 +1179,7 @@ footer{
     border: none;
     margin:0 12px 0 0;
 }
-#satisfaction-slider .carousel-indicators .active{
+.satisfaction-slider .carousel-indicators .active{
     background:#4EBDE4;
 }
 
@@ -1228,6 +1234,7 @@ footer{
     font-size:18px;
     line-height: 22px;
     color:#3F589E;
+    text-align: center;
 }
 
 /****  Partners section ****/
@@ -1545,12 +1552,6 @@ footer{
     color:#ffffff;
     margin-bottom: 41px;
 }
-
-
-#main {
-    margin: 50px 0;
-}
-
 #faq .card {
     margin-bottom: 28px;
     border: 0;

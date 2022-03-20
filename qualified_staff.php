@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
  
@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>

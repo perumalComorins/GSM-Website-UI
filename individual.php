@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+    <link rel="stylesheet" type='text/css' href="css/responsive.css" />
 </head>
 <body>
  
@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
@@ -109,7 +109,7 @@
               </div>
 
               <div class="container container-85 reset-padding">
-                <div id="satisfaction-slider" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="hover">
+                <div id="satisfaction-slider-web" class="satisfaction-slider carousel slide d-none d-lg-block" data-ride="carousel" data-interval="false" data-pause="hover">
                   <div class="carousel-inner">
                       <div class="carousel-item active">
                           <div class="row mx-0">
@@ -437,8 +437,363 @@
                     </div>
                      <!-- Indicators -->
                     <ul class="carousel-indicators">
-                      <li data-target="#satisfaction-slider" data-slide-to="0" class="active"></li>
-                      <li data-target="#satisfaction-slider" data-slide-to="1"></li>
+                      <li data-target="#satisfaction-slider-web" data-slide-to="0" class="active"></li>
+                      <li data-target="#satisfaction-slider-web" data-slide-to="1"></li>
+                    </ul>
+                    
+                </div>
+
+
+                <div id="satisfaction-slider-mobile" class="satisfaction-slider carousel slide d-block d-lg-none" data-ride="carousel" data-interval="false" data-pause="hover">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="row mx-0">
+                                <div class="card satisfaction-card col-sm-12">
+                                  <figure>
+                                          <label class="satisfaction-label">Satisfaction 100%</label>
+                                          <div class="card-body froentside-panel row reset-margin">
+                                            <div class="col content-block">
+                                              <h5 class="card-title">Repair Safety and Compliance - 1</h5>
+                                              <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
+                                                the basics of a diagnosis and intervention carried out in safety and compliance </p> 
+                                            </div>
+                                            <div class="col picture-block">
+                                              <img src="images/satatistics-pic.png" class="img-fluid"/>
+                                            </div> 
+                                          </div>
+                                          <figcaption>
+                                              <span class="backdrop-border"></span>
+                                              <div class="card-header row">
+                                                  <div class="col-10 students-satisfaction">
+                                                      <div class="row reset-margin">
+                                                        <div class="col-6 students-satisfaction-percentage">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-4 satifaction-percentage">100%</div>
+                                                            <div class="col-8 satifaction-text reset-padding">Students Satisfaction</div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-6 students-number-count reset-padding">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-2 students-count">15</div>
+                                                            <div class="col-10 students-text reset-padding">No. of Students who have taken the course</div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-2 text-center brand-logos reset-padding">
+                                                      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+                                                          <div class="row reset-margin carousel-inner">
+                                                            <img src="images/brand-logo-1.png" class="carousel-item active"/>
+                                                            <img src="images/brand-logo-1.png" class="carousel-item"/>
+                                                          </div>
+                                                      </div> -->
+                                                  </div>
+                                              </div>
+                                              <div class="card-body reset-padding">
+                                                  <ul class="backdrop-list">
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Objectives:</span>
+                                                          Diagnose a Level 1 failure To disassemble safely and in compliance.
+                                                          Replace a subset in safety and compliance. Go back to safety and compliance. 
+                                                          Conduct a functionality and compliance test.
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Educational Terms:</span>
+                                                          Pedagogical face-to-face | Occupational situations | Technical Workshop
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Prerequisite:</span>
+                                                          6 months of experience in repairing nomadic products
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Duration:</span>
+                                                          35 Hours (5 days) 
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Location:</span>
+                                                          PARIS - IDF
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Individual rate:</span>
+                                                          XX
+                                                      </li>
+                                                  </ul>
+                                              </div> 
+                                              <div class="card-footer">
+                                                <button class="btn gsm-outline-individual pull-left">Learn More</button>
+                                                <button class="btn gsm-bg-individual pull-right">Apply Now</button>
+                                              </div>
+                                          </figcaption>
+                                  </figure>
+                                </div>
+
+                                
+                            </div>
+                      </div>
+
+                      <div class="carousel-item">
+                          <div class="row mx-0">
+                                <div class="card satisfaction-card col-sm-12">
+                                  <figure>
+                                          <label class="satisfaction-label">Satisfaction 100%</label>
+                                          <div class="card-body froentside-panel row reset-margin">
+                                            <div class="col content-block">
+                                              <h5 class="card-title">Repair Safety and Compliance - 2</h5>
+                                              <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
+                                                the basics of a diagnosis and intervention carried out in safety and compliance </p> 
+                                            </div>
+                                            <div class="col picture-block">
+                                              <img src="images/satatistics-pic.png" class="img-fluid"/>
+                                            </div> 
+                                          </div>
+                                          <figcaption>
+                                              <span class="backdrop-border"></span>
+                                              <div class="card-header row">
+                                                  <div class="col-9 students-satisfaction">
+                                                      <div class="row reset-margin">
+                                                        <div class="col-6 students-satisfaction-percentage">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-5 satifaction-percentage">100%</div>
+                                                            <div class="col-7 satifaction-text reset-padding">Students Satisfaction</div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-6 students-number-count reset-padding">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-2 students-count">15</div>
+                                                            <div class="col-10 students-text reset-padding">No. of Students who have taken the course</div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-3 text-center brand-logos reset-padding">
+                                                      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+                                                          <div class="row reset-margin carousel-inner">
+                                                            <img src="images/brand-logo-1.png" class="carousel-item active"/>
+                                                            <img src="images/brand-logo-1.png" class="carousel-item"/>
+                                                          </div>
+                                                      </div> -->
+                                                  </div>
+                                              </div>
+                                              <div class="card-body reset-padding">
+                                                  <ul class="backdrop-list">
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Objectives:</span>
+                                                          Diagnose a Level 1 failure To disassemble safely and in compliance.
+                                                          Replace a subset in safety and compliance. Go back to safety and compliance. 
+                                                          Conduct a functionality and compliance test.
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Educational Terms:</span>
+                                                          Pedagogical face-to-face | Occupational situations | Technical Workshop
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Prerequisite:</span>
+                                                          6 months of experience in repairing nomadic products
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Duration:</span>
+                                                          35 Hours (5 days) 
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Location:</span>
+                                                          PARIS - IDF
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Individual rate:</span>
+                                                          XX
+                                                      </li>
+                                                  </ul>
+                                              </div> 
+                                              <div class="card-footer">
+                                                <button class="btn gsm-outline-individual  btn-gsm-statics-size pull-left">Learn More</button>
+                                                <button class="btn gsm-bg-individual btn-gsm-statics-size pull-right">Apply Now</button>
+                                              </div>
+                                          </figcaption>
+                                  </figure>
+                                </div>
+                          </div>
+                      </div>
+
+                      <div class="carousel-item">
+                          <div class="row mx-0">
+                                <div class="card satisfaction-card col-sm-12">
+                                  <figure>
+                                          <label class="satisfaction-label">Satisfaction 100%</label>
+                                          <div class="card-body froentside-panel row reset-margin">
+                                            <div class="col content-block">
+                                              <h5 class="card-title">Repair Safety and Compliance - 3</h5>
+                                              <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
+                                                the basics of a diagnosis and intervention carried out in safety and compliance </p> 
+                                            </div>
+                                            <div class="col picture-block">
+                                              <img src="images/satatistics-pic.png" class="img-fluid"/>
+                                            </div> 
+                                          </div>
+                                          <figcaption>
+                                              <span class="backdrop-border"></span>
+                                              <div class="card-header row">
+                                                  <div class="col-9 students-satisfaction">
+                                                      <div class="row reset-margin">
+                                                        <div class="col-6 students-satisfaction-percentage">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-5 satifaction-percentage">100%</div>
+                                                            <div class="col-7 satifaction-text reset-padding">Students Satisfaction</div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-6 students-number-count reset-padding">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-2 students-count">15</div>
+                                                            <div class="col-10 students-text reset-padding">No. of Students who have taken the course</div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-3 text-center brand-logos reset-padding">
+                                                      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+                                                          <div class="row reset-margin carousel-inner">
+                                                            <img src="images/brand-logo-1.png" class="carousel-item active"/>
+                                                            <img src="images/brand-logo-1.png" class="carousel-item"/>
+                                                          </div>
+                                                      </div> -->
+                                                  </div>
+                                              </div>
+                                              <div class="card-body reset-padding">
+                                                  <ul class="backdrop-list">
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Objectives:</span>
+                                                          Diagnose a Level 1 failure To disassemble safely and in compliance.
+                                                          Replace a subset in safety and compliance. Go back to safety and compliance. 
+                                                          Conduct a functionality and compliance test.
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Educational Terms:</span>
+                                                          Pedagogical face-to-face | Occupational situations | Technical Workshop
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Prerequisite:</span>
+                                                          6 months of experience in repairing nomadic products
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Duration:</span>
+                                                          35 Hours (5 days) 
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Location:</span>
+                                                          PARIS - IDF
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Individual rate:</span>
+                                                          XX
+                                                      </li>
+                                                  </ul>
+                                              </div> 
+                                              <div class="card-footer">
+                                                <button class="btn gsm-outline-individual  btn-gsm-statics-size pull-left">Learn More</button>
+                                                <button class="btn gsm-bg-individual btn-gsm-statics-size pull-right">Apply Now</button>
+                                              </div>
+                                          </figcaption>
+                                  </figure>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                          <div class="row mx-0">
+                                <div class="card satisfaction-card col-sm-12">
+                                  <figure>
+                                          <label class="satisfaction-label">Satisfaction 100%</label>
+                                          <div class="card-body froentside-panel row reset-margin">
+                                            <div class="col content-block">
+                                              <h5 class="card-title">Repair Safety and Compliance - 4</h5>
+                                              <p class="card-text">You are already repairing and want to establish your know-how by assimilating 
+                                                the basics of a diagnosis and intervention carried out in safety and compliance </p> 
+                                            </div>
+                                            <div class="col picture-block">
+                                              <img src="images/satatistics-pic.png" class="img-fluid"/>
+                                            </div> 
+                                          </div>
+                                          <figcaption>
+                                              <span class="backdrop-border"></span>
+                                              <div class="card-header row">
+                                                  <div class="col-9 students-satisfaction">
+                                                      <div class="row reset-margin">
+                                                        <div class="col-12 students-satisfaction-percentage">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-5 satifaction-percentage">100%</div>
+                                                            <div class="col-7 satifaction-text reset-padding">Students Satisfaction</div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-12 students-number-count reset-padding">
+                                                          <div class="row reset-margin">
+                                                            <div class="col-2 students-count">15</div>
+                                                            <div class="col-10 students-text reset-padding">No. of Students who have taken the course</div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-3 text-center brand-logos reset-padding">
+                                                      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+                                                          <div class="row reset-margin carousel-inner">
+                                                            <img src="images/brand-logo-1.png" class="carousel-item active"/>
+                                                            <img src="images/brand-logo-1.png" class="carousel-item"/>
+                                                          </div>
+                                                      </div> -->
+                                                  </div>
+                                              </div>
+                                              <div class="card-body reset-padding">
+                                                  <ul class="backdrop-list">
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Objectives:</span>
+                                                          Diagnose a Level 1 failure To disassemble safely and in compliance.
+                                                          Replace a subset in safety and compliance. Go back to safety and compliance. 
+                                                          Conduct a functionality and compliance test.
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Educational Terms:</span>
+                                                          Pedagogical face-to-face | Occupational situations | Technical Workshop
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Prerequisite:</span>
+                                                          6 months of experience in repairing nomadic products
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Duration:</span>
+                                                          35 Hours (5 days) 
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Location:</span>
+                                                          PARIS - IDF
+                                                      </li>
+                                                      <li class="backdrop-item">
+                                                          <span class="item-heighlight">Individual rate:</span>
+                                                          XX
+                                                      </li>
+                                                  </ul>
+                                              </div> 
+                                              <div class="card-footer">
+                                                <button class="btn gsm-outline-individual  btn-gsm-statics-size pull-left">Learn More</button>
+                                                <button class="btn gsm-bg-individual btn-gsm-statics-size pull-right">Apply Now</button>
+                                              </div>
+                                          </figcaption>
+                                  </figure>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                     <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#satisfaction-slider-mobile" data-slide-to="0" class="active"></li>
+                      <li data-target="#satisfaction-slider-mobile" data-slide-to="1"></li>
+                      <li data-target="#satisfaction-slider-mobile" data-slide-to="2"></li>
+                      <li data-target="#satisfaction-slider-mobile" data-slide-to="3"></li>
                     </ul>
                     
                 </div>
@@ -620,7 +975,7 @@
                   </div>
               </div>
               
-              <div class="container container-65 reset-padding">
+              <div class="container container-65 reset-padding d-none d-lg-block">
                 <p class="individual-text text-center gsm-site-para">
                     Nos formations sont accessibles aux personnes en situation de handicap. 
                     Si vous avez des besoins spécifiques, n'hésitez pas à en informer notre référent handicap : 
@@ -628,7 +983,7 @@
                 </p>
               </div>
 
-              <div class="container container-55 query-blog-container reset-padding">
+              <div class="container container-55 query-blog-container reset-padding d-none d-lg-block">
                   <div class="row reset-margin">
                       <div class="col query-column reset-padding">
                         <p class="query-text individual-text text-right">If you have any questions in filling this application or curriculum related questions ask us here.</p>

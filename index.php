@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
@@ -74,11 +74,12 @@
           <header class="site-header site-navbar site-navbar-target">
               <?php include 'includes/header.php'; ?>
           </header>
-          <div class="site-bannersection">
+          <div class="site-bannersection home-banner-resizer">
               <div class="banner-view fullsize-banner">
-                <img src="images/home-banner-v1.png" class="banner-img"/>
+                <img src="images/home-banner-v1.png" class="banner-img d-none d-md-block"/>
+                <img src="images/home-mobile-banner.png" class="banner-img d-block d-md-none img-fluid"/>
               </div>
-              <div id="banner-overlay">
+              <div id="banner-overlay" >
                   <div class="home-banner-content">
                       <div class="banner-content">
                           <h1 class="title">Nous sommes <span class="text-uppercase company-text">GSM Master</span> une <span class="text-uppercase partner-text">Entreprise familiale</span> pour votre <span class="text-uppercase company-text">RÉUSSITE</span></h1>
@@ -89,7 +90,7 @@
                               <button type="button" class="btn gsm-bg-partner btn-gsm-statics-size">Partenaire</button>
                           </div>
                       </div>
-                      <div id="client-logo-slider" class="client-logo-section" data-ride="carousel" data-interval="3000" data-pause="hover">
+                      <div id="client-logo-slider" class="client-logo-section d-none d-lg-block" data-ride="carousel" data-interval="3000" data-pause="hover">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
                               <div class="row mx-0">
@@ -135,6 +136,49 @@
                   
               </div>
           </div>
+
+          <div id="client-logo-slider" class="d-block d-lg-none" data-ride="carousel" data-interval="3000" data-pause="hover">
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <div class="row mx-0">
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/LogoQualiopi.png" class="img-fluid">
+                                  </div>  
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/Group750.png" class="img-fluid">
+                                  </div>
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/Group749.png" class="img-fluid">
+                                  </div>
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/mon_compte_formation.png" class="img-fluid">
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item active">
+                              <div class="row mx-0">
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/LogoQualiopi.png" class="img-fluid">
+                                  </div>  
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/Group750.png" class="img-fluid">
+                                  </div>
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/Group749.png" class="img-fluid">
+                                  </div>
+                                  <div class="col-3 align-self-center">
+                                    <img src="images/mon_compte_formation.png" class="img-fluid">
+                                  </div>
+                              </div>
+                            </div>
+
+                            <!--    Indicators                           
+                            <ul class="carousel-indicators">
+                              <li data-target="#client-logo-slider" data-slide-to="0" class="active"></li>
+                              <li data-target="#client-logo-slider" data-slide-to="1"></li>
+                            </ul> -->
+                          </div>
+          </div>
           
           <section class="site-body-container">
               <div class="what-wedo-section container container-70 reset-padding">
@@ -157,7 +201,7 @@
                                             </p>
                                           </div>
                                       </div>
-                                      <p class="text-center icontexts-para">GSM master est détenteur exclusif du titre de « Réparateur/trice de produits nomades ».			 
+                                      <p class="icontexts-para">GSM master est détenteur exclusif du titre de « Réparateur/trice de produits nomades ».			 
                                         Notre objectif est de normer la filière à travers les bonnes pratiques pour réparer en 
                                         sécurité et conformité. Savoir-faire que nous avons développé lors de nos 20 ans d’expérience 
                                         du métier</p>
@@ -174,7 +218,7 @@
                                             </p>
                                           </div>
                                       </div>
-                                      <p class="text-center icontexts-para">Le marché de la réparation des produits nomades est en pleine expansion. 
+                                      <p class="icontexts-para">Le marché de la réparation des produits nomades est en pleine expansion. 
                                         Devenez acteur de ce secteur à votre compte ou comme salarié. Faites monter en compétence vos équipes et 
                                         réduisez votre taux de retour tout en augmentant le nombre de produits pris en charge.</p>
                                   </div>
@@ -188,7 +232,7 @@
                                             </p>
                                           </div>
                                       </div>
-                                      <p class="text-center icontexts-para">Une formation dispensée par de véritables professionnels du métier exerçant 
+                                      <p class="icontexts-para">Une formation dispensée par de véritables professionnels du métier exerçant 
                                         depuis plus de 15 ans dans la réparation et la maintenance de produits nomades.
                                         Nos formateurs gardent toujours un pied sur le terrain pour être informé de l’actualité</p>
                                   </div>
@@ -203,7 +247,7 @@
                                             </p>
                                           </div>
                                       </div>
-                                      <p class="text-center icontexts-para">Les formations dispensées par GSM Master s’adressent aussi 
+                                      <p class="icontexts-para">Les formations dispensées par GSM Master s’adressent aussi 
                                       à des professionnels du métier souhaitant consolider, approfondir ou accroître les compétences 
                                       et les performances de leurs équipes</p>
                                   </div>
@@ -214,30 +258,56 @@
                 <div class="partnerLogos-section container-fluid reset-padding">
                       <h2 class="text-center">Nos <span class="partner-text text-uppercase">PARTENAIRES</span></h2>
                       <div id="partnerpanel-slider" class="partnerpanel carousel slide" data-ride="carousel" data-interval="false" data-pause="hover">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                  <div class="container container-70 reset-padding">
-                                      <div class="row mx-0">
-                                          <div class="col-3"><img src="images/partner-group-1.png" /></div>
-                                          <div class="col-3"><img src="images/partner-group-2.png" /></div>
-                                          <div class="col-3"><img src="images/partner-group-3.png" /></div>
-                                          <div class="col-3"><img src="images/partner-group-4.png" /></div>
-                                      </div>
-                                  </div>
-                            </div>
-                            <div class="carousel-item">
-                                  <div class="container container-70 reset-padding">
-                                      <div class="row mx-0">
-                                          <div class="col-3"><img src="images/partner-group-5.png" /></div>
-                                      </div>
-                                  </div>
-                            </div>
-                            <!-- Indicators 
-                            <ul class="carousel-indicators">
-                              <li data-target="#partnerpanel-slider" data-slide-to="0" class="active"></li>
-                              <li data-target="#partnerpanel-slider" data-slide-to="1"></li>
-                            </ul>-->
-                          </div>
+                          <div class="carousel-inner d-none d-lg-block">
+                              <div class="carousel-item active">
+                                    <div class="container container-70 reset-padding">
+                                        <div class="row mx-0">
+                                            <div class="col-3 reset-padding"><img src="images/partner-group-1.png" class="img-fluid"/></div>
+                                            <div class="col-3 reset-padding"><img src="images/partner-group-2.png" class="img-fluid"/></div>
+                                            <div class="col-3 reset-padding"><img src="images/partner-group-3.png" class="img-fluid"/></div>
+                                            <div class="col-3 reset-padding"><img src="images/partner-group-4.png" class="img-fluid"/></div>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <div class="container container-70 reset-padding">
+                                        <div class="row mx-0">
+                                            <div class="col-3"><img src="images/partner-group-5.png" /></div>
+                                        </div>
+                                    </div>
+                              </div>
+                              
+                              <!-- <ul class="carousel-indicators">
+                                <li data-target="#partnerpanel-slider" data-slide-to="0" class="active"></li>
+                                <li data-target="#partnerpanel-slider" data-slide-to="1"></li>
+                              </ul> -->
+                          </div> <!-- first carousel inner end -->
+
+                          <div class="carousel-inner d-block d-lg-none">
+                              <div class="carousel-item active">
+                                    <div class="container container-70 reset-padding">
+                                        <div class="row mx-0">
+                                            <div class="col-6 reset-padding"><img src="images/partner-group-1.png" class="img-fluid"/></div>
+                                            <div class="col-6 reset-padding"><img src="images/partner-group-2.png" class="img-fluid"/></div>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <div class="container container-70 reset-padding">
+                                        <div class="row mx-0">
+                                            <div class="col-6 reset-padding"><img src="images/partner-group-3.png" class="img-fluid"/></div>
+                                            <div class="col-6 reset-padding"><img src="images/partner-group-4.png" class="img-fluid"/></div>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <div class="container container-70 reset-padding">
+                                        <div class="row mx-0">
+                                            <div class="col-6"><img src="images/partner-group-5.png" class="img-fluid"/></div>
+                                        </div>
+                                    </div>
+                              </div>
+                          </div><!-- second carousel inner end -->
                       </div>
                 </div>
 
@@ -272,6 +342,7 @@
                                       et certifiante, permettant à chacun d’exercer le métier de réparateur en toute 
                                       conformité et sécurité.
                                     </p>
+                                    <button class="btn d-block d-md-none gsm-bg-individual organisation-viewmore" type="button">Register Now</button>
                                     <button class="btn btn-gsm-sm gsm-outline-individual organisation-viewmore" type="button">Learn More</button>
                                 </div>
                               </div>
@@ -296,8 +367,13 @@
                                             <img src="images/testimonial-pic.png" class="teamMember--img img-fluid" />
                                           </div>
                                           <div class="col-7 gsm-teamMember--name-designation">
+                                            <h3 class="memberName d-block d-md-none">Testimonial from a company</h3>
+                                            <p class="membersQuote d-block d-md-none">
+                                              Present in the mobile telephony market since 1999, 
+                                              GSM Master founded its training center at the 
+                                            </p>
                                             <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
-                                            <p class="membersQuote">
+                                            <p class="membersQuote d-none d-md-block">
                                               Present in the mobile telephony market since 1999, 
                                               GSM Master founded its training center at the end of 2014 
                                               with the aim of contributing to the standardization of the mobile 
@@ -319,8 +395,13 @@
                                             <img src="images/testimonial-pic.png" class="teamMember--img img-fluid" />
                                           </div>
                                           <div class="col-7 gsm-teamMember--name-designation">
+                                            <h3 class="memberName d-block d-md-none">Testimonial from a company</h3>
+                                            <p class="membersQuote d-block d-md-none">
+                                              Present in the mobile telephony market since 1999, 
+                                              GSM Master founded its training center at the 
+                                            </p>
                                             <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
-                                            <p class="membersQuote">
+                                            <p class="membersQuote d-none d-md-block">
                                               Present in the mobile telephony market since 1999, 
                                               GSM Master founded its training center at the end of 2014 
                                               with the aim of contributing to the standardization of the mobile 
@@ -342,9 +423,19 @@
                                             <img src="images/testimonial-pic.png" class="teamMember--img img-fluid" />
                                           </div>
                                           <div class="col-7 gsm-teamMember--name-designation">
-                                            <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
-                                            <p class="membersQuote">
+                                            <h3 class="memberName d-block d-md-none">Testimonial from a company</h3>
+                                            <p class="membersQuote d-block d-md-none">
                                               Present in the mobile telephony market since 1999, 
+                                              GSM Master founded its training center at the 
+                                            </p>
+                                            <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
+                                            <p class="membersQuote d-none d-md-block">
+                                              Present in the mobile telephony market since 1999, 
+                                              GSM Master founded its training center at the end of 2014 
+                                              with the aim of contributing to the standardization of the mobile 
+                                              product repair sector by offering complete and certifying training, 
+                                              allowing everyone to exercise the profession of repairer in full 
+                                              compliance and safety. Present in the mobile telephony market since 1999, 
                                               GSM Master founded its training center at the end of 2014 
                                               with the aim of contributing to the standardization of the mobile 
                                               product repair sector by offering complete and certifying training, 

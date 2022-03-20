@@ -1,3 +1,4 @@
+<h2 class="highlightedfooter-title individual-text d-block d-block d-md-none">For further queries contact us</h2>
 <section class="heightlight-footer-box">
           <div class="container container-1160">
             <div class="row reset-margin">

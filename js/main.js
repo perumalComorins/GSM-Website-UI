@@ -9,7 +9,16 @@ $(document).ready(function(){
             $(this).find(".dropdown-menu").removeClass("show");
         }
     );
-
+    
+    $(".searchBar-mb [data-toggle=search-form]").click(function(event) {
+        event.preventDefault();
+        $(".togglesearch").addClass("open");
+        $("input[type='text']").focus();
+    });
+    $(".search-close").click(function() {
+        $(".togglesearch").removeClass("open");
+        
+    });
     
     
 });
@@ -137,22 +146,29 @@ $(document).ready(function () {
     
 });
 
-$(window).on('load', function(){
+
     function resizeBannerOverlays(){
         
-        /** Home banner image **/
-        $(".home-banner-content").closest("#banner-overlay").each(function(){
-             $h = $('.banner-view img').height();
-             $w = $('.banner-view img').width();
-             $(this).width($w).height($h);
-        });
-        $('.home-banner-content').each(function(){
-            $h = $('.banner-view img').height();
-            $(this).height($h);
-        });
+            /** Home banner image **/
+            
+            $('.home-banner-resizer #banner-overlay').each(function(){
+                    
+                $banner_h = $('.home-banner-resizer .banner-view').height();
+                $banner_w = $('.home-banner-resizer .banner-view').width();
+                
+                $(this).width($banner_w).height($banner_h);
+            });
+            $('.home-banner-content').each(function(){
+                $banner_inner_h = $('.home-banner-resizer .banner-view').height();
+                $(this).height($banner_inner_h);
+            });
+
+        
+        
 
         /*** Organization banner content ****/
         $(".organization-banner-content").closest("#banner-overlay").each(function(){
+            
             $h = $('.banner-view img').height();
             $w = $('.banner-view img').width();
             $(this).width($w).height($h);
@@ -197,11 +213,13 @@ $(window).on('load', function(){
         });
 
      }
-     resizeBannerOverlays();
-     $(window).resize(function(){ 
-         resizeBannerOverlays();
-     });
-     $(document).ready(function(){
-         resizeBannerOverlays();
-     });
- });
+
+
+$(window).resize(function(){ 
+    
+        resizeBannerOverlays();
+    
+});
+$(document).ready(function(){
+    resizeBannerOverlays();
+});

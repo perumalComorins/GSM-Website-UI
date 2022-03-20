@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
@@ -77,7 +77,7 @@
           <div class="site-bannersection">
               <div class="indicator-view fullsize-banner" style="background-image: url('images/background_banner.png');">
                       <div class="container container-70 indicator-content reset-padding">
-                          <div class="row content-row">
+                          <div class="row content-row reverse-row-mobile">
                             <div class="col-md-7 title-banner text-left align-self-center">
                                 <h2>Comprendre la certification</h2>
                                 <p>
@@ -217,7 +217,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="service-block col-lg-4 col-md-12 col-sm-12 px-3 align-self-center">
+                          <div class="service-block col-lg-4 col-md-12 col-sm-12 px-3 align-self-center d-none d-lg-block">
                               <h2 class="service-textwrapp">Soyez l’acteur du changement</h2>
                           </div>
                           <div class="service-block col-lg-4 col-md-12 col-sm-12 reset-padding">
@@ -244,7 +244,7 @@
                     </div>
                 </div>
 
-                <div class="container container-75 reset-padding certificate-satisfaction-card">
+                <div id="satisfaction-certificates-box" class="container container-75 reset-padding certificate-satisfaction-card">
                     <h2>Nos Collaborations</h2>
                     <div class="row mx-0 mt-5">
                                 <div class="card satisfaction-card col-sm-6">

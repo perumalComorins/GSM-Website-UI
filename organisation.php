@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
 </head>
 <body>
  
@@ -76,7 +76,7 @@
             </header>
 
             <div class="site-bannersection">
-                <div class="banner-view fullsize-banner">
+                <div class="static-banner-organisation banner-view fullsize-banner">
                     <img src="images/organisation-bg.png" class="banner-img"/>
                 </div>
                 <div id="banner-overlay">
@@ -87,7 +87,7 @@
                                 Rejoignez notre projet de structurer la filière de la réparation de produits nomades 
                                 à travers la formation des techniciens et techniciennes.
                             </p>
-                            <div class="text-left mt-4">
+                            <div class="btn-box-wrapper text-left mt-4">
                                 <button type="button" class="btn gsm-outline-transparent btn-gsm-statics-size">Learn more</button>
                                 <button type="button" class="btn gsm-bg-white btn-gsm-statics-size mx-3">REGISTER</button>
                             </div>
@@ -111,7 +111,7 @@
                     </div>
                 </div> <!-- What we do section -->
                 
-                <div class="satisfaction-rate" style="background-image: url('images/map-bg.png');">
+                <div class="satisfaction-rate d-none d-lg-block" style="background-image: url('images/map-bg.png');">
                   <div class="satisfaction-rate-innersection container container-60 reset-padding" >
                       <div class="title-bar text-center">
                         <h2>Notre taux de  <span class="partner-text text-uppercase">SATISFACTION GLOBAL</span></h2>
@@ -142,12 +142,12 @@
                             <div id="home" class="tab-pane fade in active show">
                               <div class="organize-register-section">
                                   <form class="organize-registration-form">
-                                    <div class="text-right mb-5">
+                                    <div class="draft-continue-indicator text-right mb-5">
                                       <button type="button" class="btn gsm-bg-company">Continuer à partir d'un brouillon</button>
                                     </div>
                                     
                                     <div class="alert alert-info alert-gsm alert-dismissible fade show">
-                                      There are still some files to be uploaded. Do you want to submit now and upload later? .
+                                      <span>There are still some files to be uploaded. Do you want to submit now and upload later? .</span>
                                       <button type="button" class="close gsm-bg-white" data-dismiss="alert">Oui</button>
                                     </div>
                                     <div class="form-row twospaces-row reset-margin">
@@ -204,7 +204,7 @@
                                         </div>
                                     </div>
                                     
-                                    <div class="text-center">
+                                    <div class="organize-form-submission text-center">
                                       <button type="button" class="btn gsm-bg-individual btn-gsm-lg">Enregistrer ma demande</button>
                                     </div>
                                     
@@ -269,7 +269,7 @@
                                             </div>
                                         </div>
                                         
-                                        <div class="text-center">
+                                        <div class="organize-form-submission text-center">
                                           <button type="button" class="btn gsm-bg-individual btn-gsm-lg">Enregistrer ma demande</button>
                                         </div>
                                         

@@ -450,7 +450,20 @@ a:hover{
 /******  Header Section starts on 11AM to 1:30 next 3:30 to 8(22-02-22) ******/
 .site-header{
     background: #4EBDE4;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, .16)
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+    animation: reverseScroll 1s forwards;
+}
+header.fixed-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    animation: smoothScroll 1s forwards;
 }
 .site-header-container{
     max-width: 85%;
@@ -590,7 +603,7 @@ hr.drop-option-seperator{
     transition: all 0.5s ease;
 }
 #sidebar-wrapper {
-    z-index: 1000;
+    z-index: 99999;
     left: 100%;
     width:90px;
     height: 100%;
@@ -2099,7 +2112,8 @@ textarea.form-control::placeholder{
     bottom: 91px;
     z-index: 999;
 }
-.contactfaq-tab-bar li{
+#contactfaq-nav li,
+#contactfaq-nav-mobile .carousel-inner li{
     height: 332px;
     padding: 0;
     background: #FFFFFF;
@@ -2107,14 +2121,18 @@ textarea.form-control::placeholder{
     margin-right: 9px;
     border-radius: 5px;
 }
-.contactfaq-tab-bar li.list-active{
+#contactfaq-nav li.list-active,
+#contactfaq-nav-mobile .carousel-inner li.list-active
+{
     background: #3F589E;
     
 }
-.contactfaq-tab-bar li:last-child{
+#contactfaq-nav li:last-child,
+#contactfaq-nav-mobile .carousel-inner li:last-child{
     margin-right: 0;
 }
-.contactfaq-tab-bar li a{
+#contactfaq-nav li a,
+#contactfaq-nav-mobile .carousel-inner li a{
     display: block;
     width: 100%;
     height:100%;
@@ -2122,15 +2140,18 @@ textarea.form-control::placeholder{
     margin-right:6px;
     color:#3F589E;
 }
-.contactfaq-tab-bar li a.active{
+#contactfaq-nav li a.active,
+#contactfaq-nav-mobile .carousel-inner li a.active{
     color:#ffffff;
 }
-.contactfaq-tab-bar li a h2{
+#contactfaq-nav li a h2,
+#contactfaq-nav-mobile .carousel-inner li a h2{
      font-size: 25px;
      font-family: 'poppinsregular';
 
 }
-.contactfaq-tab-bar li a p{
+#contactfaq-nav li a p,
+#contactfaq-nav-mobile .carousel-inner li a p{
     font-size: 16px;
     font-family: 'poppinsextralight';
 }

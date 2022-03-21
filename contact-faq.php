@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
 </head>
 <body>
  
@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
@@ -98,8 +98,8 @@
                     <div class="contactfaq-tab-bar">
                         <div class="container container-55 reset-padding">
                           <ul id="contactfaq-nav" class="nav nav-pills row reset-margin">
-                                <li class="col text-center">
-                                  <a data-toggle="pill" href="#particulier" class="" >
+                                <li class="col text-center list-active">
+                                  <a data-toggle="pill" href="#particulier" class="active" >
                                     <img src="images/noun_individual.png" />
                                     <h2>Particulier</h2>
                                     <p>Vous n’avez pas d’expérience dans la réparation et vous souhaitez vous former. </p>
@@ -122,12 +122,48 @@
                                   </a>
                                 </li>
                             </ul>
+
+                            <div id="contactfaq-nav-mobile" class="contactfaq-nav-slider carousel slide d-block d-lg-none" data-ride="carousel" data-interval="false" data-pause="hover">
+                                <ul class="carousel-inner nav nav-pills row reset-margin">
+                                    <li class="carousel-item col-sm-12 text-center active list-active">
+                                        <a data-toggle="pill" href="#particulier" class="active" >
+                                                <img src="images/noun_individual.png" />
+                                                <h2>Particulier</h2>
+                                                <p>The mobile product repair market is booming. Become a player in this market on your own 
+                                                or as an employee. As an existing repairer or business manager, increase or certify the skills acquired.</p>
+                                        </a>
+                                    </li>
+                                    <li class="carousel-item col-sm-12 text-center">
+                                        <a data-toggle="pill" href="#entreprise">
+                                                <img src="images/noun_user_favorite.png" />
+                                                <h2>Entreprise</h2>
+                                                <p>Vous êtes un professionnel du secteur et vous voulez faire monter vos équipes en compétence 
+                                                ou reconnaître leur qualification.</p>
+                                        </a>
+                                    </li>
+                                    <li class="carousel-item col-sm-12 text-center">
+                                        <a data-toggle="pill" href="#partenaire">
+                                                <img src="images/noun_organization.png" />
+                                                <h2>Partenaire</h2>
+                                                <p>Vous êtes un organisme de formation ou une association 
+                                                et vous souhaitez proposer une collaboration à GSM Master. </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="carousel-indicators">
+                                    <li data-target="#contactfaq-nav-mobile" data-slide-to="0" class="active"></li>
+                                    <li data-target="#contactfaq-nav-mobile" data-slide-to="1"></li>
+                                    <li data-target="#contactfaq-nav-mobile" data-slide-to="2"></li>
+                                </ul>
+                            </div>
+                            
+                            
                         </div>
                     </div>
                     
                     <div class="container-fluid reset-padding organization-tab-content">
                     <div class="tab-content container container-55 reset-padding">
-                            <div id="particulier" class="tab-pane fade">
+                            <div id="particulier" class="tab-pane fade in active show">
                                 <div id="contact-faq-accordian" class="col-md-12 reset-padding faq-accordian-list">
                                   <h2 class="title">Questions fréquentes - particulier</h2>
                                   <div class="accordion" id="faq">
@@ -479,11 +515,11 @@
                                   <h2 class="individual-text appointment-title text-center">
                                     Vous ne trouvez pas votre solution ? Prenez rendez vous avec notre équipe
                                   </h2>
-                                  <div class="appointment-card card mx-auto" style="width: 450px;">
+                                  <div class="appointment-card card mx-auto">
                                     <div class="card-body">
                                       <div class="row">
                                           <div class="col-3">
-                                            <img src="images/noun_Appointment-icon.png" />
+                                            <img src="images/noun_Appointment-icon.png" class="img-fluid"/>
                                           </div>
                                           <div class="col-9">
                                             <h3 class="card-title">Prenez rendez-vous</h3>
@@ -525,7 +561,12 @@
       jQuery(document).ready(function($) {
             $('#contactfaq-nav li a').on('click', function(event) {
                     $("#contactfaq-nav li").removeClass("list-active");
-                    $(this).parent().addClass("list-active");
+                    $(this).parent('').addClass("list-active");
+                    event.preventDefault();
+            });
+            $('#contactfaq-nav-mobile .carousel-inner li a').on('click', function(event) {
+                    $("#contactfaq-nav-mobile .carousel-inner li").removeClass("list-active");
+                    $(this).parents('').addClass("list-active");
                     event.preventDefault();
             });
       });

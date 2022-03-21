@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
 </head>
 <body>
  
@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
@@ -76,7 +76,7 @@
           </header>
           <div class="site-bannersection">
               <div class="sitemap-banner" style="background-image: url('images/sitemap-banner.png');">
-                      <div class="container container-75 reset-padding">
+                      <div class="container container-75 reset-padding sitemap-container">
                           <h1>Site Map</h1>
                       </div>
               </div>
@@ -84,11 +84,11 @@
           </div>
           
           <section class="site-body-container">
-              <div class="container container-75 reset-padding">
+              <div class="container container-75 reset-padding sitemap-container">
                 <div class="sitemap-row row">
                     <div class="col-md-8 reset-padding align-self-center">
                         <div class="sitebar-row row">
-                          <div class="col reset-padding">
+                          <div class="col-md-4 reset-padding">
                               <div class="sitebar-box">
                                 <h2>Main Content</h2>
                                 <ul>
@@ -101,7 +101,7 @@
                                 </ul>
                               </div>
                           </div>
-                          <div class="col reset-padding">
+                          <div class="col-md-4 reset-padding">
                               <div class="sitebar-box">
                                 <h2>Individual</h2>
                                 <ul>
@@ -122,7 +122,7 @@
                                 </ul>
                               </div>
                           </div>
-                          <div class="col reset-padding">
+                          <div class="col-md-4 reset-padding">
                               <div class="sitebar-box">
                                 <h2>Connections</h2>
                                 <ul>

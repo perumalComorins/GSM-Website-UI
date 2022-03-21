@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
-    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
 </head>
 <body>
  
@@ -51,7 +51,7 @@
                       </ul>
                     </nav>
 
-                    <div class="course_Section mt-5">
+                    <div class="course_Section mt-5 d-none d-lg-block">
                         <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
                         <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
@@ -77,8 +77,8 @@
           <div class="site-bannersection">
               <div class="terms-privacy-legal-view fullsize-banner" style="background-image: url('images/background_banner.png');">
                   <div class="legalnotice-content reset-padding">
-                      <div class="row legalnotice-row reset-margin">
-                          <div class="col-md-5 legalnotice-col">
+                      <div class="row legalnotice-row reverse-row-mobile reset-margin">
+                          <div class="col-md-5 legalnotice-col d-none d-md-block">
                             <h1>Conditions Générales d’Utilisation</h1>
                             <ul class="legalnotice-lists">
                                 <li><label>GSM MASTER - TRAINING ORGANIZATION</label></li>
@@ -96,7 +96,7 @@
                             </ul>
                           </div>
                           <div class="col-md-7 reset-padding">
-                            <img src="images/overhead-shot-looking.png"  />
+                            <img src="images/overhead-shot-looking.png"  class="legal-banner"/>
                           </div>
                           
                       </div>
@@ -106,7 +106,23 @@
           </div>
           
           <section class="site-body-container">
-                
+                        <div class="mobile-legal-container legalnotice-col d-block d-md-none">
+                            <h1>Conditions Générales d’Utilisation</h1>
+                            <ul class="legalnotice-lists">
+                                <li><label>GSM MASTER - TRAINING ORGANIZATION</label></li>
+                                <li><label>ADDRESS: </label>2 rue Perdonnet, 75010 Paris</li>
+                                <li><label>SIRET: </label>44978889200015</li>
+                                <li><label>N ° TRAINING ORGANIZATION: </label>11755077875</li>
+                            </ul>
+                            <ul class="legalnotice-lists">
+                                <li><label>Director of publication: </label>Mme Shreedarani SIVATHASAN</li>
+                                <li><label>Host: </label>OVH, 2 rue Kellermann - 59100 Roubaix - France, Tel: +33 9 72 10 10 07</li>
+                                <li><label>Creation and design graphic: </label></li>
+                                <li><label>Director of publication: </label>Mme Shreedarani SIVATHASAN</li>
+                                <li><label>Host: </label>OVH, 2 rue Kellermann - 59100 Roubaix - France, Tel: +33 9 72 10 10 07</li>
+                                <li><label>Creation and design graphic: </label></li>
+                            </ul>
+                          </div>
           </section>
 
           <footer class="site-footer">

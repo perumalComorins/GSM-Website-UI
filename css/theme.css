@@ -356,7 +356,7 @@ a:hover{
     text-align: center;
     top: 0;
     width: 100%;
-    height:93vh;
+    height:100vh;
     z-index: 999;
 }
 .home-banner-content{
@@ -402,6 +402,7 @@ a:hover{
 .organization-banner-content{
     width:50%;
     position: relative;
+    height: 100vh;
 }
 .organization-banner-content h1.title{
     font-family: 'poppinsregular';
@@ -2481,6 +2482,17 @@ textarea.form-control::placeholder{
 
 
 /*** Requirement page design ***/
+.requirement-banner-content .banner-content{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.requirement-banner-content .training-tab-section.requirement-tab-section{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
 .requirement-banner-content h1{
     font-family: 'poppinssemibold';
     font-size: 60px;
@@ -3186,7 +3198,7 @@ h2.service-textwrapp{
     left: 0;
     position: absolute;
     text-align: center;
-    top: 65px;
+    top: 0;
     width: 100%;
     z-index: 999;
 }

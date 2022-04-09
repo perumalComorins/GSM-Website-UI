@@ -18,57 +18,7 @@
       <div class="overlay"></div>
 
       <!-- Sidebar -->
-      <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
-          <div class="sidebar-wrapper-container">
-            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
-                      <span class="hamb-top"></span>
-                      <span class="hamb-bottom"></span>
-            </button>
-            <div class="row reset-margin">
-                <div class="navbarTitle-col reset-padding">
-                  <h1 class="pannel-title">Together, let's be the future</h1>
-                </div>
-                <div class="navbarMenu-col reset-padding">
-                    <img src="images/site-logo-color.png" style="width:180px;"/>
-                    <nav class="sidenav-Menu">
-                      <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Qui sommes-nous ?</a></li>
-                        <li><a href="#"> Blog</a></li>
-                        <li class="btn-group dropright">
-                          <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                              Certification <i class="fa fa-angle-right right-arrow"></i>
-                          </a>
-                          <ul class="dropdown-menu" style="">
-                            <li><a href="#">Certification niveau 4</a></li>
-                            <li><a href="#">Certification niveau 3</a></li>
-                            <li><a href="#">Indicateurs de qualité</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Demande de devis</a></li>
-                        <li><a href="#">GSM Recrute</a></li>
-                        <li><a href="#">Contact & FAQ</a></li>
-                      </ul>
-                    </nav>
-
-                    <div class="course_Section mt-5 d-none d-lg-block">
-                        <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
-                        <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
-                        <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
-                    </div>
-
-                    <div class="sidepanelCopyright">
-                      <span>&copy; 2020 GSM Master. All rights reserved</span>
-                    </div>
-                    <div class="sidepanelSocialicons">
-                        <a href="#"><img src="images/linkedin-in.png" class="icon" /></a>
-                        <a href="#"><img src="images/facebook-square.png" class="icon" /></a>
-                        
-                    </div>
-                </div>
-            </div>
-          </div>
-      </nav>
+      <?php include 'includes/sidepanel.php'; ?>
 
       <div id="page-content-wrapper" class="container-fluid reset-padding">
           <header class="site-header site-navbar site-navbar-target">
@@ -803,8 +753,8 @@
                   <div class="container container-70 reset-padding">
                       <div class="row reset-margin">
                           <div class="col-md-5 reset-padding faq-accordian-slider">
-                              <span class="faq-label company-text">What people say</span>
-                              <div id="faqIndicators" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false">
+                              <div class="faq-label company-text">What people say</div>
+                              <div id="faqIndicators" class="carousel slide color-start" >
                                     <div class="carousel-inner">
                                         <div class="carousel-item faq-item active">
                                             <div class="faqMember-thumbnail">
@@ -819,7 +769,7 @@
                                               offering complete and certifying training, allowing everyone to exercise 
                                               the profession of repairer in full compliance and safety.
                                             </p>
-                                            <h3 class="faqmemberName">Kim Joe <span class="faqmemberDesignation">Highschool</span></h3>
+                                            <h3 class="faqmemberName">Kim Joe-1 <span class="faqmemberDesignation">Highschool</span></h3>
                                         </div>
                                         <div class="carousel-item faq-item">
                                             <div class="faqMember-thumbnail">
@@ -834,9 +784,25 @@
                                               offering complete and certifying training, allowing everyone to exercise 
                                               the profession of repairer in full compliance and safety.
                                             </p>
-                                            <h3 class="faqmemberName">Kim Joe <span class="faqmemberDesignation">Highschool</span></h3>
+                                            <h3 class="faqmemberName">Kim Joe-2 <span class="faqmemberDesignation">Highschool</span></h3>
+                                        </div>
+                                        <div class="carousel-item faq-item">
+                                            <div class="faqMember-thumbnail">
+                                                <span class="faqequals-quotes">=</span>
+                                                <img src="images/faq-thumb-1.png" class="img-fluid"/>
+                                                <div class="triangleBox"></div>
+                                            </div>
+                                            <p class="fag-content">
+                                              Present in the mobile telephony market since 1999, 
+                                              GSM Master founded its training center at the end of 2014 with the aim of 
+                                              contributing to the standardization of the mobile product repair sector by 
+                                              offering complete and certifying training, allowing everyone to exercise 
+                                              the profession of repairer in full compliance and safety.
+                                            </p>
+                                            <h3 class="faqmemberName">Kim Joe-3 <span class="faqmemberDesignation">Highschool</span></h3>
                                         </div>
                                     </div>
+                                    
                                     <div class="faq-Nav">
                                         <a class="carousel-control-prev faq-prev" href="#faqIndicators" role="button" data-slide="prev">
                                           <img src="images/testimonial-arrow-left.png" />
@@ -849,6 +815,8 @@
                                         </a>
                                     </div>
                               </div>
+
+                              
                           </div>
                           <div class="col-md-1 reset-padding d-none d-md-block">
                           </div>

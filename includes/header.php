@@ -1,6 +1,6 @@
 <div class="container site-header-container reset-padding">
     <nav class="site-navigation navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/site-logo-white.png" class="site-logo"/></a>
+        <a class="navbar-brand" href="index.php"><img src="images/site-logo-white.png" class="site-logo"/></a>
         <div class="searchBar-mb d-block d-lg-none">  
             <a href="#" class="search-form-trigger" data-toggle="search-form">
                 <i class="fa fa-search" aria-hidden="true" data-toggle="search-form"></i>
@@ -19,7 +19,7 @@
         <div class="main-nav collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Individual</a>
+                    <a class="nav-link dropdown-toggle" href="individual.php" id="navbarDropdown" role="button" data-hover="dropdown" aria-expanded="false">Individual</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
                             <a href="#" class="drop-link">Recruter des talents</a>
@@ -46,7 +46,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Company</a>
+                    <a class="nav-link dropdown-toggle" href="company.php" id="navbarDropdown" role="button" data-hover="dropdown" aria-expanded="false">Company</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
                             <a href="#" class="drop-link">Recruter des talents</a>
@@ -70,7 +70,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="organisation.php" id="navbarDropdown" role="button" data-hover="dropdown" aria-expanded="false">
                     Organization
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

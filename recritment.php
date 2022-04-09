@@ -12,63 +12,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
-<body>
+<body class="inner-page">
  
   <div id="wrapper">
       <div class="overlay"></div>
 
       <!-- Sidebar -->
-      <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
-          <div class="sidebar-wrapper-container">
-            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
-                      <span class="hamb-top"></span>
-                      <span class="hamb-bottom"></span>
-            </button>
-            <div class="row reset-margin">
-                <div class="navbarTitle-col reset-padding">
-                  <h1 class="pannel-title">Together, let's be the future</h1>
-                </div>
-                <div class="navbarMenu-col reset-padding">
-                    <img src="images/site-logo-color.png" style="width:180px;"/>
-                    <nav class="sidenav-Menu">
-                      <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Qui sommes-nous ?</a></li>
-                        <li><a href="#"> Blog</a></li>
-                        <li class="btn-group dropright">
-                          <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                              Certification <i class="fa fa-angle-right right-arrow"></i>
-                          </a>
-                          <ul class="dropdown-menu" style="">
-                            <li><a href="#">Certification niveau 4</a></li>
-                            <li><a href="#">Certification niveau 3</a></li>
-                            <li><a href="#">Indicateurs de qualité</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Demande de devis</a></li>
-                        <li><a href="#">GSM Recrute</a></li>
-                        <li><a href="#">Contact & FAQ</a></li>
-                      </ul>
-                    </nav>
-
-                    <div class="course_Section mt-5 d-none d-lg-block">
-                        <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
-                        <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
-                        <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
-                    </div>
-
-                    <div class="sidepanelCopyright">
-                      <span>&copy; 2020 GSM Master. All rights reserved</span>
-                    </div>
-                    <div class="sidepanelSocialicons">
-                        <a href="#"><img src="images/linkedin-in.png" class="icon" /></a>
-                        <a href="#"><img src="images/facebook-square.png" class="icon" /></a>
-                        
-                    </div>
-                </div>
-            </div>
-          </div>
-      </nav>
+      <?php include 'includes/sidepanel.php'; ?>
 
       <div id="page-content-wrapper" class="container-fluid reset-padding">
           <header class="site-header site-navbar site-navbar-target">
@@ -224,11 +174,11 @@
                                 </div>
 
                                 <div id="jobs-accordian" class="col-md-12 reset-padding job-accordian-list">
-                                  <div class="accordion" id="job">
+                                  <div class="accordion" id="particulier-job">
                                       <div class="card">
-                                          <div class="card-header" id="jobhead1">
-                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#job1"
-                                              aria-expanded="true" aria-controls="job1">
+                                          <div class="card-header" id="particulier-jobhead1">
+                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#particulier-job1"
+                                              aria-expanded="true" aria-controls="particulier-job1">
                                                     <div class="col-md-3 job-company-icon reset-padding">
                                                         <img src="images/gsmmaster_logo.png" class="img-fluid"/>
                                                     </div>
@@ -240,7 +190,7 @@
                                               </a>
                                           </div>
 
-                                          <div id="job1" class="collapse" aria-labelledby="jobhead1" data-parent="#job">
+                                          <div id="particulier-job1" class="collapse" aria-labelledby="particulier-jobhead1" data-parent="#particulier-job">
                                               <div class="card-body">
                                                 <ul class="job-info-list">
                                                     <li>Location: Paris</li>
@@ -310,9 +260,9 @@
                                       </div>
 
                                       <div class="card">
-                                            <div class="card-header" id="jobhead2">
-                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#job2"
-                                              aria-expanded="true" aria-controls="job2">
+                                            <div class="card-header" id="particulier-jobhead2">
+                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#particulier-job2"
+                                              aria-expanded="false" aria-controls="particulier-job2">
                                                     <div class="col-md-3 job-company-icon reset-padding">
                                                         <img src="images/gsmmaster_logo.png" class="img-fluid"/>
                                                     </div>
@@ -324,7 +274,7 @@
                                               </a>
                                             </div>
 
-                                            <div id="job2" class="collapse" aria-labelledby="jobhead2" data-parent="#job">
+                                            <div id="particulier-job2" class="collapse" aria-labelledby="particulier-jobhead2" data-parent="#particulier-job">
                                                 <div class="card-body">
                                                     <ul class="job-info-list">
                                                         <li>Location: Paris</li>
@@ -394,9 +344,9 @@
                                       </div>
 
                                       <div class="card">
-                                            <div class="card-header" id="jobhead3">
-                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#job3"
-                                              aria-expanded="true" aria-controls="job3">
+                                            <div class="card-header" id="particulier-jobhead3">
+                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#particulier-job3"
+                                              aria-expanded="false" aria-controls="particulier-job3">
                                                     <div class="col-md-3 job-company-icon reset-padding">
                                                         <img src="images/gsmmaster_logo.png" class="img-fluid"/>
                                                     </div>
@@ -408,7 +358,7 @@
                                               </a>
                                             </div>
 
-                                            <div id="job3" class="collapse" aria-labelledby="jobhead3" data-parent="#job">
+                                            <div id="particulier-job3" class="collapse" aria-labelledby="particulier-jobhead3" data-parent="#particulier-job">
                                                 <div class="card-body">
                                                     <ul class="job-info-list">
                                                         <li>Location: Paris</li>
@@ -607,11 +557,11 @@
                                 </div>
 
                                 <div id="jobs-accordian" class="col-md-12 reset-padding job-accordian-list">
-                                  <div class="accordion" id="job">
+                                  <div class="accordion" id="entreprise-job">
                                       <div class="card">
-                                          <div class="card-header" id="jobhead1">
-                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#job1"
-                                              aria-expanded="true" aria-controls="job1">
+                                          <div class="card-header" id="entreprise-jobhead1">
+                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#entreprise-job1"
+                                              aria-expanded="true" aria-controls="entreprise-job1">
                                                     <div class="col-md-3 job-company-icon reset-padding">
                                                         <img src="images/gsmmaster_logo_2.png" class="img-fluid"/>
                                                     </div>
@@ -623,7 +573,7 @@
                                               </a>
                                           </div>
 
-                                          <div id="job1" class="collapse" aria-labelledby="jobhead1" data-parent="#job">
+                                          <div id="entreprise-job1" class="collapse" aria-labelledby="entreprise-jobhead1" data-parent="#entreprise-job">
                                               <div class="card-body">
                                                 <ul class="job-info-list">
                                                     <li>Location: Paris</li>
@@ -693,9 +643,9 @@
                                       </div>
 
                                       <div class="card">
-                                            <div class="card-header" id="jobhead2">
-                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#job2"
-                                              aria-expanded="true" aria-controls="job2">
+                                            <div class="card-header" id="entreprise-jobhead2">
+                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#entreprise-job2"
+                                              aria-expanded="false" aria-controls="entreprise-job2">
                                                     <div class="col-md-3 job-company-icon reset-padding">
                                                         <img src="images/gsmmaster_logo_2.png" class="img-fluid"/>
                                                     </div>
@@ -707,7 +657,7 @@
                                               </a>
                                             </div>
 
-                                            <div id="job2" class="collapse" aria-labelledby="jobhead2" data-parent="#job">
+                                            <div id="entreprise-job2" class="collapse" aria-labelledby="entreprise-jobhead2" data-parent="#entreprise-job">
                                                 <div class="card-body">
                                                     <ul class="job-info-list">
                                                         <li>Location: Paris</li>
@@ -777,9 +727,9 @@
                                       </div>
 
                                       <div class="card">
-                                            <div class="card-header" id="jobhead3">
-                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#job3"
-                                              aria-expanded="true" aria-controls="job3">
+                                            <div class="card-header" id="entreprise-jobhead3">
+                                              <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#entreprise-job3"
+                                              aria-expanded="true" aria-controls="entreprise-job3">
                                                     <div class="col-md-3 job-company-icon reset-padding">
                                                         <img src="images/gsmmaster_logo_2.png" class="img-fluid"/>
                                                     </div>
@@ -791,7 +741,7 @@
                                               </a>
                                             </div>
 
-                                            <div id="job3" class="collapse" aria-labelledby="jobhead3" data-parent="#job">
+                                            <div id="entreprise-job3" class="collapse" aria-labelledby="entreprise-jobhead3" data-parent="#entreprise-job">
                                                 <div class="card-body">
                                                     <ul class="job-info-list">
                                                         <li>Location: Paris</li>

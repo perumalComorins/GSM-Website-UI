@@ -4,7 +4,7 @@
     Si vous avez des besoins spécifiques, n'hésitez pas à en informer notre référent handicap : Clément Berger de Nomazy sur l'adresse "relation-candidat@gsmmaster.fr"</h2>
     </div>
     <div class="row reset-margin">
-        <div class="col-sm-12 col-md-4 footer-widget reset-padding">
+        <div class="col-sm-12 col-lg-4 footer-widget reset-padding">
             <div class="row reset-margin">
                 <div class="footerpanelSocialicons d-none d-md-block">
                     <a href="#" class="footer-socialicon-link"><img src="images/linkedin-in-footer.png" class="icon"></a>
@@ -18,18 +18,18 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-4 footer-widget reset-padding">
+        <div class="col-sm-12 col-lg-4 footer-widget reset-padding">
             <h2 class="footer-widget-title">Further Information</h2>
             <ul class="footer-menu">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Politique de confidentialité</a></li>
-                <li><a href="#">Credits</a></li>
-                <li><a href="#">CGU</a></li>
-                <li><a href="#">Information légale</a></li>
-                <li><a href="#">Plan du site</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a href="terms-privacy.php">Politique de confidentialité</a></li>
+                <li><a href="legal-notice.php">Credits</a></li>
+                <li><a href="terms-privacy.php">CGU</a></li>
+                <li><a href="terms-privacy.php">Information légale</a></li>
+                <li><a href="sitemap.php">Plan du site</a></li>
             </ul>
         </div>
-        <div class="col-sm-12 col-md-4 footer-widget reset-padding">
+        <div class="col-sm-12 col-lg-4 footer-widget reset-padding">
             <h2 class="footer-widget-title">Subscribe to Newsletter</h2>
             <form name="newsletter-form" class="newsletter">
                 <div class="form-group">

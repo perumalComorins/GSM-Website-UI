@@ -9,6 +9,19 @@ $(document).ready(function(){
             $(this).find(".dropdown-menu").removeClass("show");
         }
     );
+
+    $(".sidenav-Menu .dropright").hover(
+        function () {
+            $(this).addClass("show");
+            $(this).find(".dropdown-menu").addClass("show");
+        },
+        function () {
+            $(this).removeClass("show");
+            $(this).find(".dropdown-menu").removeClass("show");
+        }
+    );
+
+
     
     $(".searchBar-mb [data-toggle=search-form]").click(function(event) {
         event.preventDefault();
@@ -31,42 +44,71 @@ $(window).scroll(function(){
         $('header').removeClass('fixed-header');
     }
 });
-$(document).ready(function () {
+
+
+var isClosed = false;
+$(document).ready(function(){
+    
     var trigger = $('.hamburger'),
+        bodyTrigger = $('.humburger-body-open'),
         overlay = $('.overlay'),
-        isClosed = false;
-  
+        body = $('body,#page-content-wrapper');
+        
+
+        
         trigger.click(function () {
-            hamburger_cross();      
+            hamburger_cross();
+        });
+        
+
+        
+
+        function hamburger_cross() {
+            
+            if (isClosed == true) {          
+                trigger.removeClass('is-open');
+                $('#wrapper').removeClass('toggled');
+                trigger.addClass('is-closed');
+                body.removeClass('humburger-body-open')
+                isClosed = false;
+            } 
+            else {   
+                trigger.removeClass('is-closed');
+                trigger.addClass('is-open');
+                $('#wrapper').addClass('toggled');
+                body.addClass('humburger-body-open');
+                isClosed = true;
+            }
+        }
+
+        $(document).mouseup(function(e) {
+            
+            var container = $("#sidebar-wrapper");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                
+                if ( $('body').hasClass('humburger-body-open') ) {
+                            $('body').removeClass('humburger-body-open');
+                            $('#wrapper').removeClass('toggled');
+                            $('.hamburger').removeClass('is-open');
+                            $('.hamburger').addClass('is-closed');
+                            isClosed = false;
+                }
+            }
+
+            
         });
     
-        function hamburger_cross() {
-    
-            if (isClosed == true) {          
-            //overlay.hide();
-            trigger.removeClass('is-open');
-            trigger.addClass('is-closed');
-            isClosed = false;
-            } else {   
-            //overlay.show();
-            trigger.removeClass('is-closed');
-            trigger.addClass('is-open');
-            isClosed = true;
-            }
-    }
-    
-    $('[data-toggle="offcanvas"]').click(function () {
-          $('#wrapper').toggleClass('toggled');
-    });  
+   
 
 
     /**** Testimonial slider section *****/
     
 
     
-        var totalItems = $('.testimonial-item').length;
-        var currentIndex = $('div.testimonial-item.active').index() + 1;
-        var down_index;
+        var totalItems = $('.testimonial-item').length,
+            currentIndex = $('div.testimonial-item.active').index() + 1,
+            currentIndex_active,
+            down_index;
 
         // $('.testimonial_num').html(''+currentIndex+'/'+totalItems+'');
         $('.testimonial_num').html(''+currentIndex+'');
@@ -89,11 +131,13 @@ $(document).ready(function () {
                 $('.testimonial_num').html(''+down_index+'');
             }
         });
-
+        
+        
     /***  Faq slider section ***/ 
     
         var totalfaqItems = $('.faq-item').length;
         var currentfaqIndex = $('div.faq-item.active').index() + 1;
+        var currentfaqIndex_active;
         var downfaq_index;
 
         // $('.testimonial_num').html(''+currentIndex+'/'+totalItems+'');
@@ -110,42 +154,37 @@ $(document).ready(function () {
         });
 
         $(".faq-prev").click(function(){
+            
             downfaq_index=downfaq_index-1;
-            if (downfaq_index >= 1 )
-            {
+            if (downfaq_index >= 1 ){
                 //$('.testimonial_num').html(''+downfaq_index+'/'+totalItems+'');
                 $('.faq_num').html(''+downfaq_index+'');
             }
         });
 
-    /***  Faq Qualified slider section ***/ 
+        $('#faqIndicators').carousel({
+            interval: 2000
+        });
+        
+        $("#faqIndicators").on('slide.bs.carousel', function (e) {
+              var autofaqIndex_active = $('div.faq-item.active').index() + 2;
+            $(".faq-next").click(function(e){
+                    e.preventDefault();
+            });
+            $(".faq-prev").click(function(e){
+                    e.preventDefault();
+            })
+              if (totalfaqItems >= autofaqIndex_active){
+                autodownfaq_index= $('div.faq-item.active').index() + 2;
+                $('.faq_num').html(''+autodownfaq_index+'');
+              }
+              
+              else{
+                $('.faq_num').html(''+currentfaqIndex+''); 
+              }
+              
+        });
     
-    var totalfaqItems = $('.qualified-faq-item').length;
-    var currentfaqIndex = $('div.qualified-faq-item.active').index() + 1;
-    var downfaq_index;
-
-    // $('.testimonial_num').html(''+currentIndex+'/'+totalItems+'');
-    $('.faq_qulified_num').html(''+currentfaqIndex+'');
-
-    $(".qualified-faq-next").click(function(){
-        currentfaqIndex_active = $('div.qualified-faq-item.active').index() + 2;
-        if (totalfaqItems >= currentfaqIndex_active)
-        {
-            downfaq_index= $('div.qualified-faq-item.active').index() + 2;
-            //$('.testimonial_num').html(''+currentIndex_active+'/'+totalItems+'');
-            $('.faq_qulified_num').html(''+currentfaqIndex_active+'');
-        }
-    });
-
-    $(".qualified-faq-prev").click(function(){
-        downfaq_index=downfaq_index-1;
-        if (downfaq_index >= 1 )
-        {
-            //$('.testimonial_num').html(''+downfaq_index+'/'+totalItems+'');
-            $('.faq_qulified_num').html(''+downfaq_index+'');
-        }
-    });    
-
     $('#publishModal').modal('show');
     $('#draftModal').modal('show');
 
@@ -159,31 +198,27 @@ $(document).ready(function () {
             /** Home banner image **/
             
             $('.home-banner-resizer #banner-overlay').each(function(){
-                    
                 $banner_h = $('.home-banner-resizer .banner-view').height();
                 $banner_w = $('.home-banner-resizer .banner-view').width();
                 
-                $(this).width($banner_w).height($banner_h);
+                $(this).width($banner_w);
             });
-            $('.home-banner-content').each(function(){
-                $banner_inner_h = $('.home-banner-resizer .banner-view').height();
-                $(this).height($banner_inner_h);
-            });
-
+            // $('.home-banner-content').each(function(){
+            //     $banner_inner_h = $('.home-banner-resizer .banner-view').height();
+            //     $(this).height($banner_inner_h);
+            // });
         
-        
-
         /*** Organization banner content ****/
         $(".organization-banner-content").closest("#banner-overlay").each(function(){
             
             $h = $('.banner-view img').height();
             $w = $('.banner-view img').width();
             $(this).width($w).height($h);
-       });
-       $('.organization-banner-content').each(function(){
-           $h = $('.banner-view img').height();
-           $(this).height($h);
-       });
+        });
+        $('.organization-banner-content').each(function(){
+            $h = $('.banner-view img').height();
+            $(this).height($h);
+        });
 
 
        /***  Contact faq banner content ***/
@@ -221,12 +256,15 @@ $(document).ready(function () {
 
      }
 
-
+resizeBannerOverlays();
 $(window).resize(function(){ 
-    
-        resizeBannerOverlays();
-    
+    resizeBannerOverlays();
 });
 $(document).ready(function(){
     resizeBannerOverlays();
 });
+
+
+
+  
+  

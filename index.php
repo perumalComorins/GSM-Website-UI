@@ -12,63 +12,15 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
-<body>
+<body class="home-page">
  
   <div id="wrapper">
-      <div class="overlay"></div>
+      <div class="overlay">
+        
+      </div>
 
       <!-- Sidebar -->
-      <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
-          <div class="sidebar-wrapper-container">
-            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
-                      <span class="hamb-top"></span>
-                      <span class="hamb-bottom"></span>
-            </button>
-            <div class="row reset-margin">
-                <div class="navbarTitle-col reset-padding">
-                  <h1 class="pannel-title">Together, let's be the future</h1>
-                </div>
-                <div class="navbarMenu-col reset-padding">
-                    <img src="images/site-logo-color.png" style="width:180px;"/>
-                    <nav class="sidenav-Menu">
-                      <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Qui sommes-nous ?</a></li>
-                        <li><a href="#"> Blog</a></li>
-                        <li class="btn-group dropright">
-                          <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                              Certification <i class="fa fa-angle-right right-arrow"></i>
-                          </a>
-                          <ul class="dropdown-menu" style="">
-                            <li><a href="#">Certification niveau 4</a></li>
-                            <li><a href="#">Certification niveau 3</a></li>
-                            <li><a href="#">Indicateurs de qualité</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Demande de devis</a></li>
-                        <li><a href="#">GSM Recrute</a></li>
-                        <li><a href="#">Contact & FAQ</a></li>
-                      </ul>
-                    </nav>
-
-                    <div class="course_Section mt-5 d-none d-lg-block">
-                        <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
-                        <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
-                        <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
-                    </div>
-
-                    <div class="sidepanelCopyright">
-                      <span>&copy; 2020 GSM Master. All rights reserved</span>
-                    </div>
-                    <div class="sidepanelSocialicons">
-                        <a href="#"><img src="images/linkedin-in.png" class="icon" /></a>
-                        <a href="#"><img src="images/facebook-square.png" class="icon" /></a>
-                        
-                    </div>
-                </div>
-            </div>
-          </div>
-      </nav>
+      <?php include 'includes/sidepanel.php'; ?>
 
       <div id="page-content-wrapper" class="container-fluid reset-padding">
           <header class="site-header site-navbar site-navbar-target">
@@ -76,10 +28,10 @@
           </header>
           <div class="site-bannersection home-banner-resizer">
               <div class="banner-view fullsize-banner">
-                <img src="images/home-banner-v1.png" class="banner-img d-none d-md-block"/>
-                <img src="images/home-mobile-banner.png" class="banner-img d-block d-md-none img-fluid"/>
+                <img src="images/home-banner-v1.png" class="banner-img d-none d-sm-block"/>
+                <img src="images/home-mobile-banner.png" class="banner-img d-block d-sm-none img-fluid"/>
               </div>
-              <div id="banner-overlay" >
+              <div id="banner-overlay">
                   <div class="home-banner-content">
                       <div class="banner-content">
                           <h1 class="title">Nous sommes <span class="text-uppercase company-text">GSM Master</span> une <span class="text-uppercase partner-text">Entreprise familiale</span> pour votre <span class="text-uppercase company-text">RÉUSSITE</span></h1>
@@ -92,50 +44,44 @@
                       </div>
                       <div id="client-logo-slider" class="client-logo-section d-none d-lg-block" data-ride="carousel" data-interval="3000" data-pause="hover">
                           <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <div class="row mx-0">
-                                  <div class="col-3">
-                                    <img src="images/LogoQualiopi.png" />
-                                  </div>  
-                                  <div class="col-3">
-                                    <img src="images/Group750.png" />
-                                  </div>
-                                  <div class="col-3">
-                                    <img src="images/Group749.png" />
-                                  </div>
-                                  <div class="col-3">
-                                    <img src="images/mon_compte_formation.png" />
-                                  </div>
+                              <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div class="col-3">
+                                      <img src="images/LogoQualiopi.png" />
+                                    </div>  
+                                    <div class="col-3">
+                                      <img src="images/Group750.png" />
+                                    </div>
+                                    <div class="col-3">
+                                      <img src="images/Group749.png" />
+                                    </div>
+                                    <div class="col-3">
+                                      <img src="images/mon_compte_formation.png" />
+                                    </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row mx-0">
-                                  <div class="col-3">
-                                    <img src="images/LogoQualiopi.png" />
-                                  </div>  
-                                  <div class="col-3">
-                                    <img src="images/Group750.png" />
-                                  </div>
-                                  <div class="col-3">
-                                    <img src="images/Group749.png" />
-                                  </div>
-                                  <div class="col-3">
-                                    <img src="images/mon_compte_formation.png" />
-                                  </div>
+                              <div class="carousel-item">
+                                <div class="row mx-0">
+                                    <div class="col-3">
+                                      <img src="images/LogoQualiopi.png" />
+                                    </div>  
+                                    <div class="col-3">
+                                      <img src="images/Group750.png" />
+                                    </div>
+                                    <div class="col-3">
+                                      <img src="images/Group749.png" />
+                                    </div>
+                                    <div class="col-3">
+                                      <img src="images/mon_compte_formation.png" />
+                                    </div>
+                                </div>
                               </div>
-                            </div>
-
-                            <!--    Indicators                           
-                            <ul class="carousel-indicators">
-                              <li data-target="#client-logo-slider" data-slide-to="0" class="active"></li>
-                              <li data-target="#client-logo-slider" data-slide-to="1"></li>
-                            </ul> -->
                           </div>
                       </div>
                   </div>
                   
               </div>
-          </div>
+          </div> 
 
           <div id="client-logo-slider" class="d-block d-lg-none" data-ride="carousel" data-interval="3000" data-pause="hover">
                           <div class="carousel-inner">
@@ -191,7 +137,7 @@
                       
                           <div class="whatwedo-icon-texts-section">
                               <div class="row reset-margin">
-                                  <div class="col-md-5 icontexts-box reset-padding">
+                                  <div class="col-lg-5 icontexts-box reset-padding">
                                       <div class="icontexts-row row">
                                           <img src="images/noun_Badge.png" class="icon"/>
                                           <div class="col whatwedo-texts reset-padding">
@@ -206,8 +152,8 @@
                                         sécurité et conformité. Savoir-faire que nous avons développé lors de nos 20 ans d’expérience 
                                         du métier</p>
                                   </div>
-                                  <div class="col-md-2 d-none d-md-block icontexts-box reset-padding"></div>
-                                  <div class="col-md-5 icontexts-box reset-padding">
+                                  <div class="col-lg-2 d-none d-lg-block icontexts-box reset-padding"></div>
+                                  <div class="col-lg-5 icontexts-box reset-padding">
                                       <div class="icontexts-row row">
                                           <img src="images/noun_skills.png" class="icon"/>
                                           <div class="col whatwedo-texts reset-padding">
@@ -222,7 +168,7 @@
                                         Devenez acteur de ce secteur à votre compte ou comme salarié. Faites monter en compétence vos équipes et 
                                         réduisez votre taux de retour tout en augmentant le nombre de produits pris en charge.</p>
                                   </div>
-                                  <div class="col-md-5 icontexts-box reset-padding">
+                                  <div class="col-lg-5 icontexts-box reset-padding">
                                       <div class="icontexts-row row">
                                           <img src="images/noun_quality.png" class="icon"/>
                                           <div class="col whatwedo-texts reset-padding">
@@ -236,8 +182,8 @@
                                         depuis plus de 15 ans dans la réparation et la maintenance de produits nomades.
                                         Nos formateurs gardent toujours un pied sur le terrain pour être informé de l’actualité</p>
                                   </div>
-                                  <div class="col-md-2 d-none d-md-block icontexts-box reset-padding"></div>
-                                  <div class="col-md-5 icontexts-box reset-padding">
+                                  <div class="col-lg-2 d-none d-lg-block icontexts-box reset-padding"></div>
+                                  <div class="col-lg-5 icontexts-box reset-padding">
                                       <div class="icontexts-row row">
                                           <img src="images/noun_certified.png" class="icon"/>
                                           <div class="col whatwedo-texts reset-padding">
@@ -329,8 +275,8 @@
                       <div class="organisation-inner-box row">
                           <div class="col-md-8 organisation-content">
                               <div class="row reset-margin">
-                                <div class="col-md-5 d-none d-md-block"></div>
-                                <div class="col-md-7">
+                                <div class="col-md-3 d-none d-md-block"></div>
+                                <div class="col-md-9">
                                     <h2 class="main-title individual-text">
                                         L’organisme de formation <span class="partner-text text-uppercase">GSM Master</span> 
                                     </h2>
@@ -366,7 +312,7 @@
                                           <div class="col-5 gsm-teamMember--thumbnail">
                                             <img src="images/testimonial-pic.png" class="teamMember--img img-fluid" />
                                           </div>
-                                          <div class="col-7 gsm-teamMember--name-designation">
+                                          <div class="col-7 gsm-teamMember--name-designation align-self-center">
                                             <h3 class="memberName d-block d-md-none">Testimonial from a company</h3>
                                             <p class="membersQuote d-block d-md-none">
                                               Present in the mobile telephony market since 1999, 
@@ -394,7 +340,7 @@
                                           <div class="col-5 gsm-teamMember--thumbnail">
                                             <img src="images/testimonial-pic.png" class="teamMember--img img-fluid" />
                                           </div>
-                                          <div class="col-7 gsm-teamMember--name-designation">
+                                          <div class="col-7 gsm-teamMember--name-designation align-self-center">
                                             <h3 class="memberName d-block d-md-none">Testimonial from a company</h3>
                                             <p class="membersQuote d-block d-md-none">
                                               Present in the mobile telephony market since 1999, 
@@ -422,7 +368,7 @@
                                           <div class="col-5 gsm-teamMember--thumbnail">
                                             <img src="images/testimonial-pic.png" class="teamMember--img img-fluid" />
                                           </div>
-                                          <div class="col-7 gsm-teamMember--name-designation">
+                                          <div class="col-7 gsm-teamMember--name-designation align-self-center">
                                             <h3 class="memberName d-block d-md-none">Testimonial from a company</h3>
                                             <p class="membersQuote d-block d-md-none">
                                               Present in the mobile telephony market since 1999, 
@@ -463,9 +409,6 @@
                       </div>
                     </div>
                   </div>
-
-                
-
           </section>
 
           <footer class="site-footer">

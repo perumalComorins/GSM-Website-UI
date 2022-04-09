@@ -18,57 +18,7 @@
       <div class="overlay"></div>
 
       <!-- Sidebar -->
-      <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
-          <div class="sidebar-wrapper-container">
-            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
-                      <span class="hamb-top"></span>
-                      <span class="hamb-bottom"></span>
-            </button>
-            <div class="row reset-margin">
-                <div class="navbarTitle-col reset-padding">
-                  <h1 class="pannel-title">Together, let's be the future</h1>
-                </div>
-                <div class="navbarMenu-col reset-padding">
-                    <img src="images/site-logo-color.png" style="width:180px;"/>
-                    <nav class="sidenav-Menu">
-                      <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Qui sommes-nous ?</a></li>
-                        <li><a href="#"> Blog</a></li>
-                        <li class="btn-group dropright">
-                          <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                              Certification <i class="fa fa-angle-right right-arrow"></i>
-                          </a>
-                          <ul class="dropdown-menu" style="">
-                            <li><a href="#">Certification niveau 4</a></li>
-                            <li><a href="#">Certification niveau 3</a></li>
-                            <li><a href="#">Indicateurs de qualité</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Demande de devis</a></li>
-                        <li><a href="#">GSM Recrute</a></li>
-                        <li><a href="#">Contact & FAQ</a></li>
-                      </ul>
-                    </nav>
-
-                    <div class="course_Section mt-5 d-none d-lg-block">
-                        <a href="#" class="applyTag individualColor"><img src="images/cornershadow.png" />Individual</a>
-                        <a href="#" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
-                        <a href="#" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
-                    </div>
-
-                    <div class="sidepanelCopyright">
-                      <span>&copy; 2020 GSM Master. All rights reserved</span>
-                    </div>
-                    <div class="sidepanelSocialicons">
-                        <a href="#"><img src="images/linkedin-in.png" class="icon" /></a>
-                        <a href="#"><img src="images/facebook-square.png" class="icon" /></a>
-                        
-                    </div>
-                </div>
-            </div>
-          </div>
-      </nav>
+      <?php include 'includes/sidepanel.php'; ?>
 
       <div id="page-content-wrapper" class="container-fluid reset-padding">
           <header class="site-header site-navbar site-navbar-target">
@@ -92,12 +42,12 @@
                               <div class="sitebar-box">
                                 <h2>Main Content</h2>
                                 <ul>
-                                  <li>Home</li>
+                                  <li><a href="index.php">Home</a></li>
                                   <li>The Body</li>
-                                  <li>Contact & FAQ</li>
-                                  <li>Certification</li>
-                                  <li>Career</li>
-                                  <li>Blog</li>
+                                  <li><a href="contact-faq.php">Contact &amp; FAQ</a></li>
+                                  <li><a href="certificate.php">Certification</a></li>
+                                  <li><a href="recritment.php">Career</a></li>
+                                  <li><a href="blog.php">Blog</a></li>
                                 </ul>
                               </div>
                           </div>
@@ -105,20 +55,20 @@
                               <div class="sitebar-box">
                                 <h2>Individual</h2>
                                 <ul>
-                                  <li>Formations</li>
+                                  <li><a href="individual.php">Formations</a></li>
                                 </ul>
                               </div>
                               <div class="sitebar-box">
                                 <h2>Company</h2>
                                 <ul>
-                                  <li>Team recruitment</li>
-                                  <li>Upgrade Team</li>
+                                  <li><a href="qualified_staff.php">Team recruitment</a></li>
+                                  <li><a href="qualified_staff.php">Upgrade Team</a></li>
                                 </ul>
                               </div>
                               <div class="sitebar-box">
                                 <h2>Organization</h2>
                                 <ul>
-                                  <li>Registration - Organization</li>
+                                  <li><a href="organisation.php">Registration - Organization</a></li>
                                 </ul>
                               </div>
                           </div>
@@ -126,11 +76,11 @@
                               <div class="sitebar-box">
                                 <h2>Connections</h2>
                                 <ul>
-                                  <li>CGUG</li>
-                                  <li>Credits</li>
-                                  <li>Legal Notice</li>
-                                  <li>DPR</li>
-                                  <li>Sitemap</li>
+                                  <li><a href="terms-privacy.php">CGUG</a></li>
+                                  <li><a href="legal-notice.php">Credits</a></li>
+                                  <li><a href="terms-privacy.php">Legal Notice</a></li>
+                                  </li><li><a href="terms-privacy.php">DPR</a></li>
+                                  <li><a href="sitemap.php">Sitemap</a></li>
                                 </ul>
                               </div>
                           </div>

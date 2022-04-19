@@ -12,13 +12,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
-<body>
+<body class="inner-page">
  
   <div id="wrapper">
       <div class="overlay"></div>
 
       <!-- Sidebar -->
-      <?php include 'includes/sidepanel.php'; ?>
+      <?php include 'includes/sidepanel.php'; ?>x`
 
       <div id="page-content-wrapper" class="container-fluid reset-padding">
           <header class="site-header site-navbar site-navbar-target">

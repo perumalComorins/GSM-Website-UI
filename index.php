@@ -46,33 +46,33 @@
                           <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <div class="row mx-0">
-                                    <div class="col-3">
-                                      <img src="images/LogoQualiopi.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/LogoQualiopi.png" class="img-fluid"/>
                                     </div>  
-                                    <div class="col-3">
-                                      <img src="images/Group750.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/Group750.png" class="img-fluid"/>
                                     </div>
-                                    <div class="col-3">
-                                      <img src="images/Group749.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/Group749.png" class="img-fluid"/>
                                     </div>
-                                    <div class="col-3">
-                                      <img src="images/mon_compte_formation.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/mon_compte_formation.png" class="img-fluid"/>
                                     </div>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <div class="row mx-0">
-                                    <div class="col-3">
-                                      <img src="images/LogoQualiopi.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/LogoQualiopi.png" class="img-fluid"/>
                                     </div>  
-                                    <div class="col-3">
-                                      <img src="images/Group750.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/Group750.png" class="img-fluid"/>
                                     </div>
-                                    <div class="col-3">
-                                      <img src="images/Group749.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/Group749.png" class="img-fluid"/>
                                     </div>
-                                    <div class="col-3">
-                                      <img src="images/mon_compte_formation.png" />
+                                    <div class="col-3 align-self-center reset-padding">
+                                      <img src="images/mon_compte_formation.png" class="img-fluid"/>
                                     </div>
                                 </div>
                               </div>
@@ -260,7 +260,7 @@
                 <div class="satisfaction-rate" style="background-image: url('images/map-bg.png');">
                   <div class="satisfaction-rate-innersection container container-60 reset-padding" >
                       <div class="title-bar text-center">
-                        <h2>Nos <span class="partner-text text-uppercase">PARTENAIRES</span></h2>
+                        <h2>Notre taux de <span class="partner-text text-uppercase">SATISFACTION GLOBAL</span></h2>
                         <p class="intro-content individual-text">Nos taux de réussite de la certification pour "Réparateur(trice) produits nomades" de 2016 à aujourd'hui </p>
                       </div>
                       <div class="satisfaction-rate-section">
@@ -320,17 +320,12 @@
                                             </p>
                                             <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
                                             <p class="membersQuote d-none d-md-block">
-                                              Present in the mobile telephony market since 1999, 
+                                              <span class="quote">=</span>Present in the mobile telephony market since 1999, 
                                               GSM Master founded its training center at the end of 2014 
                                               with the aim of contributing to the standardization of the mobile 
                                               product repair sector by offering complete and certifying training, 
                                               allowing everyone to exercise the profession of repairer in full 
-                                              compliance and safety. Present in the mobile telephony market since 1999, 
-                                              GSM Master founded its training center at the end of 2014 
-                                              with the aim of contributing to the standardization of the mobile 
-                                              product repair sector by offering complete and certifying training, 
-                                              allowing everyone to exercise the profession of repairer in full 
-                                              compliance and safety.
+                                              compliance and safety. 
                                             </p>
                                           </div>
                                       </div>
@@ -348,17 +343,12 @@
                                             </p>
                                             <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
                                             <p class="membersQuote d-none d-md-block">
-                                              Present in the mobile telephony market since 1999, 
+                                              <span class="quote">=</span>Present in the mobile telephony market since 1999, 
                                               GSM Master founded its training center at the end of 2014 
                                               with the aim of contributing to the standardization of the mobile 
                                               product repair sector by offering complete and certifying training, 
                                               allowing everyone to exercise the profession of repairer in full 
-                                              compliance and safety. Present in the mobile telephony market since 1999, 
-                                              GSM Master founded its training center at the end of 2014 
-                                              with the aim of contributing to the standardization of the mobile 
-                                              product repair sector by offering complete and certifying training, 
-                                              allowing everyone to exercise the profession of repairer in full 
-                                              compliance and safety.
+                                              compliance and safety. 
                                             </p>
                                           </div>
                                       </div>
@@ -376,17 +366,12 @@
                                             </p>
                                             <h3 class="memberName">Joe ROB <span class="memberDesignation">Photoshop Expert</span></h3>
                                             <p class="membersQuote d-none d-md-block">
-                                              Present in the mobile telephony market since 1999, 
+                                              <span class="quote">=</span>Present in the mobile telephony market since 1999, 
                                               GSM Master founded its training center at the end of 2014 
                                               with the aim of contributing to the standardization of the mobile 
                                               product repair sector by offering complete and certifying training, 
                                               allowing everyone to exercise the profession of repairer in full 
-                                              compliance and safety. Present in the mobile telephony market since 1999, 
-                                              GSM Master founded its training center at the end of 2014 
-                                              with the aim of contributing to the standardization of the mobile 
-                                              product repair sector by offering complete and certifying training, 
-                                              allowing everyone to exercise the profession of repairer in full 
-                                              compliance and safety.
+                                              compliance and safety. 
                                             </p>
                                           </div>
                                       </div>

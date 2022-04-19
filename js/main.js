@@ -21,6 +21,17 @@ $(document).ready(function(){
         }
     );
 
+    $(".mobiletopNav .dropright").hover(
+        function () {
+            $(this).addClass("show");
+            $(this).find(".dropdown-menu").addClass("show");
+        },
+        function () {
+            $(this).removeClass("show");
+            $(this).find(".dropdown-menu").removeClass("show");
+        }
+    );
+
 
     
     $(".searchBar-mb [data-toggle=search-form]").click(function(event) {
@@ -249,9 +260,9 @@ $(document).ready(function(){
         /*** Indicators banner ***/
         
         $(".twobyfour-banner-cover-overlay").each(function(){
-            $h = $('.twofourth-size-banner img').height();
-            $w = $('.twofourth-size-banner img').width();
-            $(this).width($w).height($h);
+            let $twofourth_h = $('.twofourth-size-banner').height();
+            let $twofourth_w = $('.twofourth-size-banner').width();
+            $(this).width($twofourth_w).height($twofourth_h);
         });
 
      }

@@ -12,7 +12,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" type='text/css' href="css/responsive.css" />
 </head>
-<body>
+<body class="inner-page">
  
   <div id="wrapper">
       <div class="overlay"></div>

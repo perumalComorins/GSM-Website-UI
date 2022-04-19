@@ -9,14 +9,14 @@
                   <h1 class="pannel-title">Together, let's be the future</h1>
                 </div>
                 <div class="navbarMenu-col reset-padding">
-                    <img src="images/site-logo-color.png" style="width:180px;"/>
+                    <img src="images/site-logo-color.png" style="width:180px;" class="sidepanel-site-logo"/>
                     <nav class="sidenav-Menu">
                       <ul>
                         <li><a href="index.php">Accueil</a></li>
                         <li><a href="certificateur.php">Qui sommes-nous ?</a></li>
                         <li><a href="blog.php"> Blog</a></li>
                         <li class="btn-group dropright">
-                          <a class="dropdown-toggle" data-hover="dropdown" aria-expanded="false">
+                          <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                               Certification <i class="fa fa-angle-right right-arrow"></i>
                           </a>
                           <ul class="dropdown-menu" style="">
@@ -36,6 +36,42 @@
                         <a href="company.php" class="applyTag companyColor"><img src="images/companyshadow.png" />Company</a>
                         <a href="organisation.php" class="applyTag organisationColor"><img src="images/organizationshadow.png" />Organization</a>
                     </div>
+
+                    <nav class="sidenav-Menu mobiletopNav mt-5 d-block d-lg-none">
+                        <ul>
+                          <li class="btn-group dropright">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Individual <i class="fa fa-angle-right right-arrow"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="">
+                              <li><a href="certificate.php">Certification niveau 4</a></li>
+                              <li><a href="certificate.php">Certification niveau 3</a></li>
+                              <li><a href="qulity_indicators.php">Indicateurs de qualité</a></li>
+                            </ul>
+                          </li>
+                          <li class="btn-group dropright">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Company <i class="fa fa-angle-right right-arrow"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="">
+                              <li><a href="certificate.php">Certification niveau 4</a></li>
+                              <li><a href="certificate.php">Certification niveau 3</a></li>
+                              <li><a href="qulity_indicators.php">Indicateurs de qualité</a></li>
+                            </ul>
+                          </li>
+                          <li class="btn-group dropright">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Organization <i class="fa fa-angle-right right-arrow"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="">
+                              <li><a href="certificate.php">Certification niveau 4</a></li>
+                              <li><a href="certificate.php">Certification niveau 3</a></li>
+                              <li><a href="qulity_indicators.php">Indicateurs de qualité</a></li>
+                            </ul>
+                          </li>
+                          
+                        </ul>
+                    </nav>
 
                     <div class="sidepanelCopyright">
                       <span>&copy; 2020 GSM Master. All rights reserved</span>

@@ -12,7 +12,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
-<body>
+<body class="inner-page">
  
   <div id="wrapper">
       <div class="overlay"></div>
@@ -131,12 +131,13 @@
                     <div class="tab-pane active" id="one" role="tabpanel" aria-labelledby="one-tab">
                       <img src="images/indicators-logo-1.png" class="indicator-icon" />
                       <h1>Qualiopi</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
@@ -144,168 +145,182 @@
                     <div class="tab-pane " id="two" role="tabpanel" aria-labelledby="two-tab">
                       <img src="images/indicators-logo-2.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="three" role="tabpanel" aria-labelledby="three-tab">
                       <img src="images/indicators-logo-3.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="four" role="tabpanel" aria-labelledby="four-tab">
                       <img src="images/indicators-logo-4.png" class="indicator-icon" />
                       <h1>MONCOMPTE</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="five" role="tabpanel" aria-labelledby="five-tab">
                       <img src="images/indicators-logo-3.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="six" role="tabpanel" aria-labelledby="six-tab">
                       <img src="images/indicators-logo-2.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="seven" role="tabpanel" aria-labelledby="seven-tab">
                       <img src="images/indicators-logo-4.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="eight" role="tabpanel" aria-labelledby="eight-tab">
                       <img src="images/indicators-logo-2.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="nine" role="tabpanel" aria-labelledby="nine-tab">
                       <img src="images/indicators-logo-1.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="ten" role="tabpanel" aria-labelledby="ten-tab">
                       <img src="images/indicators-logo-2.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="eleven" role="tabpanel" aria-labelledby="eleven-tab">
                       <img src="images/indicators-logo-4.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="twelve" role="tabpanel" aria-labelledby="twelve-tab">
                       <img src="images/indicators-logo-3.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="threeteen" role="tabpanel" aria-labelledby="threeteen-tab">
                       <img src="images/indicators-logo-1.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="fourteen" role="tabpanel" aria-labelledby="fourteen-tab">
                       <img src="images/indicators-logo-4.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 
                     <div class="tab-pane " id="fifteen" role="tabpanel" aria-labelledby="fifteen-tab">
                       <img src="images/indicators-logo-2.png" class="indicator-icon" />
                       <h1>Paris</h1>
-                      <p>
+                      <p class="d-none d-md-block">
                         Nous avons voulu donner à tous la possibilité de réussir à s'épanouir grâce à la certification. 
                         Pour cela nous avons mis des prérequis accessibles au plus grand nombre (parler, comprendre, 
                         lire le français et connaitre les quatre opérations mathématiques). Si tu es intéressé par la 
                         formation et que tu n'as aucune expérience tu peux t'inscrire ici
                       </p>
+                      <p class="d-block d-md-none">Nous avons voulu donner à tous la</p>
                       <button type="button" class="btn gsm-bg-individual btn-gsm-md">Learn more</button>
                     </div>
 

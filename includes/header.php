@@ -23,25 +23,31 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
                             <a href="#" class="drop-link">Recruter des talents</a>
-                            <p class="drop-desc">Recruter des réparateurs/trices de produits nomades</p>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">Je cherche un emploi </a></li>
+                            </ul>
                             <hr class="drop-option-seperator" />
                         </li>
                         <li>
-                            <a href="#" class="drop-link">Formez vos équipes</a>
-                            <p class="drop-desc">Réparation et micro soudure Compétences transverses du secteur</p>
+                            <a href="#" class="drop-link">Formez-vous aux métiers du réemploi</a>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">Le métier de réparateur Les compétences transverses </a></li>
+                            </ul>
                             <hr class="drop-option-seperator" />
                         </li>
                         <li>
                             <a href="#" class="drop-link">Certification niveau 4 (niveau bac)</a>
                             <ul class="drop-desc-list">
-                                <li>VAE</li>
-                                <li>Parcours de formation</li>
+                                <li><a href="#">VAE</a></li>
+                                <li><a href="#">Parcours de formation</a></li>
                             </ul>
                             <hr class="drop-option-seperator" />
                         </li>
                         <li>
                             <a href="#" class="drop-link">Certification niveau 3 (bac + 2)</a>
-                            <p class="drop-desc">VAE Parcours de formation</p>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">VAE Parcours de formation</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -50,22 +56,31 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
                             <a href="#" class="drop-link">Recruter des talents</a>
-                            <p class="drop-desc">Recruter des réparateurs/trices de produits nomades</p>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">Recruter des réparateurs/trices de produits nomades</a></li>
+                            </ul>
                             <hr class="drop-option-seperator" />
                         </li>
                         <li>
                             <a href="#" class="drop-link">Formez vos équipes</a>
-                            <p class="drop-desc">Réparation et micro soudure Compétences transverses du secteur</p>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">Réparation et micro soudure Compétences transverses du secteur</a></li>
+                            </ul>
                             <hr class="drop-option-seperator" />
                         </li>
                         <li>
                             <a href="#" class="drop-link">Certification niveau 4 (niveau bac)</a>
-                            <p class="drop-desc">VAE Parcours de formation</p>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">VAE</a></li>
+                                <li><a href="#">Parcours de formation</a></li>
+                            </ul>
                             <hr class="drop-option-seperator" />
                         </li>
                         <li>
                             <a href="#" class="drop-link">Certification niveau 3 (bac + 2)</a>
-                            <p class="drop-desc">VAE Parcours de formation</p>
+                            <ul class="drop-desc-list">
+                                <li><a href="#">VAE Parcours de formation</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -81,8 +96,8 @@
                         <li>
                             <a href="#" class="drop-link">Nos certifications</a>
                             <ul class="drop-desc-list">
-                                <li>Certification niveau 4</li>
-                                <li>Certification niveau 3</li>
+                                <li><a href="#">Certification niveau 4</a></li>
+                                <li><a href="#">Certification niveau 3</a></li>
                             </ul>
                         </li>
                         <img src="images/careers-circle-pic-2.png" class="drop-desc-img" style="" />

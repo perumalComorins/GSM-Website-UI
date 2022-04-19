@@ -12,7 +12,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" href="css/responsive.css" /> 
 </head>
-<body>
+<body class="inner-page">
  
   <div id="wrapper">
       <div class="overlay"></div>
@@ -98,7 +98,7 @@
                                       <textarea class="form-control" placeholder="Enter a few lines about your fit with this job" rows="5"></textarea>
                                     </div>
                                     <div class="form-group gsm-form-group col-md-12 reset-padding mb-4">
-                                      <label for="profileform-Location" class="gsm-form-label individual-text">Description</label>
+                                      <label for="profileform-Location" class="gsm-form-label individual-text">Insert your CV</label>
                                       <div class="file-upload-wrapper col-lg-12 col-md-12 col-sm-12" data-text="File name will appear here ">
                                           <input name="file-upload-field" type="file" class="file-upload-field" value="">
                                       </div>

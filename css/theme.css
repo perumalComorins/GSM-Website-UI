@@ -368,15 +368,16 @@ a:hover{
 .home-banner-content h1.title{
     font-family: 'poppinsmedium';
     font-size: 39px;
-    line-height: 48px;
-    color:#3F589E;
+    line-height: 55px;
+    letter-spacing: 2px;
+    color: #3F589E;
     text-align: left;
-    margin:0 0 12px 0;
+    margin: 0 0 15px 0;
 }
 .home-banner-content .content{
     color:#3F589E;
     font-size:18px;
-    line-height:26px;
+    line-height:28px;
     font-family: 'poppinsregular';
     text-align: left;
     margin:0;
@@ -395,12 +396,14 @@ a:hover{
     border-radius: 5px;
     position: absolute;
     bottom: 7px;
-
+    padding:20px 40px;
+}
+.client-logo-section .carousel-item img{
+    height: 60px;
 }
 
 /***   organization banner ***/
 .organization-banner-content{
-    width:50%;
     position: relative;
     height: 100vh;
 }
@@ -423,11 +426,12 @@ a:hover{
 .organization-banner-content .banner-content{
     position: absolute;
     top:75%;
-    left:40%;
-    transform:translate(-40%,-75%);
-    -webkit-transform: translate(-40%,-75%);
-    -moz-transform: translate(-40%,-75%);
-    -o-transform: translate(-40%,-75%);
+    left:30%;
+    max-width: 34vw;
+    transform:translate(-30%,-75%);
+    -webkit-transform: translate(-30%,-75%);
+    -moz-transform: translate(-30%,-75%);
+    -o-transform: translate(-30%,-75%);
 }
 
 /*** ***/
@@ -499,6 +503,15 @@ a:hover{
     box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
     width:100%;
     top:0;
+    transition: all 0.5s ease 3s;
+    -webkit-transition: all 0.5s ease 3s;
+    -moz-transition: all 0.5s ease 3s;
+    -ms-transition: all 0.5s ease 3s;
+    -o-transition: all 0.5s ease 3s;
+    
+    z-index: 9999;
+}
+.home-page .site-header{
     opacity: 0;
     height: 0;
     overflow: hidden;
@@ -507,19 +520,11 @@ a:hover{
     -moz-transform: translateY(-80px);
     -ms-transform: translateY(-80px);
     -o-transform: translateY(-80px);
-    transition: all 0.5s ease 3s;
-    -webkit-transition: all 0.5s ease 3s;
-    -moz-transition: all 0.5s ease 3s;
-    -ms-transition: all 0.5s ease 3s;
-    -o-transition: all 0.5s ease 3s;
     animation: smoothScroll 1s forwards;
     animation-delay:2.5s;
-    z-index: 9999;
 }
-/* .home-page .site-header{
-    position: -webkit-fixed;
-    position: fixed;
-}
+
+/* 
 .inner-page .site-header{
     position: -webkit-sticky;
     position: sticky;
@@ -576,8 +581,8 @@ a:hover{
     width:250px;
 }
 .search-for::placeholder{
-    font-size:16px;
-    color:#707070;
+    font-size:14px !important;
+    color:#707070 !important;
     font-family: 'poppinsregular'!important;
 }
 
@@ -636,6 +641,10 @@ a:hover{
     margin:0;
     padding-bottom: 5.5px;
 }
+.main-nav .drop-desc-list li a{
+    color:#3F589E;
+    font-family: 'poppinsextralight';
+}
 .drop-desc-img{
     width:208px;
     margin-top:21px;
@@ -667,17 +676,22 @@ hr.drop-option-seperator{
     width:90px;
     height: 100%;
     background: transparent;
-    transform: translateX(-180px);
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s; 
-    animation: sidepanelScroll 1s forwards;
-    animation-delay:1s;
     box-shadow: 9px 0 5px -9px #707070;
     padding: 0;
 }
-
+.home-page #sidebar-wrapper{
+    transform: translateX(-180px);
+    -webkit-transform: translateX(-180px);
+    -moz-transform: translateX(-180px);
+    -ms-transform: translateX(-180px);
+    -o-transform: translateX(-180px);
+    animation: sidepanelScroll 1s forwards;
+    animation-delay:1s;
+}
 #sidebar-wrapper::-webkit-scrollbar {
     display: none;
 }
@@ -691,7 +705,10 @@ hr.drop-option-seperator{
     width: 100%;
     padding-top: 70px;
 }
-
+.inner-page #page-content-wrapper{
+    position:absolute;
+    top:65px;
+}
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -100%;
@@ -892,7 +909,7 @@ button.hamburger:focus{
 }
 .sidenav-Menu{
     margin-top:64px;
-    margin-right: 1.5rem;
+    /* margin-right: 1.5rem; */
 }
 .sidenav-Menu li{
     list-style: none;
@@ -900,13 +917,16 @@ button.hamburger:focus{
 .sidenav-Menu li a{
     font-family: 'poppinsextralight';
     font-size:18px;
-    line-height: 38px;
+    line-height: 42px;
     color:#3F589E;
     display: block;
+    position: relative;
 }
 .sidenav-Menu li a .right-arrow{
-    float: right;
+    position: absolute;
+    right:20px;
     line-height: 40px;
+
 }
 .sidenav-Menu li a:hover{
     text-decoration: none;
@@ -915,9 +935,15 @@ button.hamburger:focus{
     width: 280px;
     border: none;
     border-radius: inherit;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), inset -2px 0px 0px #fff;
+    /* left:230px; */
+    float: inherit;
     padding: 16px 32px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
-    left:230px;
+   
+}
+
+.sidenav-Menu .dropdown-menu li{
+    
 }
 .sidenav-Menu .btn-group{
     display: block;
@@ -964,6 +990,43 @@ button.hamburger:focus{
 }
 .sidenav-Menu .dropdown-toggle:hover{
     cursor: pointer;
+}
+
+
+.mobiletopNav{
+    margin-top:64px;
+    margin-right: 1.5rem;
+}
+.mobiletopNav li{
+    list-style: none;
+}
+.mobiletopNav li a{
+    font-family: 'poppinsextralight';
+    font-size:18px;
+    line-height: 38px;
+    color:#3F589E;
+    display: block;
+}
+.mobiletopNav li a.dropdown-toggle{
+    border-bottom: 1px solid #3F589E;
+}
+.mobiletopNav li a .right-arrow{
+    float: right;
+    line-height: 40px;
+}
+.mobiletopNav li a:hover{
+    text-decoration: none;
+}
+.mobiletopNav .dropdown-menu{
+    width: 280px;
+    border: none;
+    border-radius: inherit;
+    padding: 16px 32px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    left:230px;
+}
+.mobiletopNav .btn-group{
+    display: block;
 }
 
 
@@ -1308,12 +1371,12 @@ footer{
     font-family: 'poppinsmedium';
     font-size:38px;
     line-height:48px;
-
+    letter-spacing: 1px;
 }
 .what-wedo-section .intro-content{
     font-family: 'poppinsextralight';
     font-size:21px;
-    line-height:34px;
+    line-height:38px;
 }
 .whatwedo-texts{
     margin-top: 12px;
@@ -1347,7 +1410,7 @@ footer{
 .icontexts-para{
     font-family: 'poppinsextralight';
     font-size:18px;
-    line-height: 22px;
+    line-height: 28px;
     color:#3F589E;
     text-align: center;
 }
@@ -1406,7 +1469,8 @@ footer{
 }
 .satisfaction-rate{
     background-size: cover;
-    padding-bottom: 9px;
+    padding-top: 90px;
+    padding-bottom: 42px;
 }
 .satisfaction-rate h2{
     color:#3F589E;
@@ -1502,8 +1566,19 @@ footer{
 .membersQuote{
     font-family: 'poppinsextralight';
     font-size:16px;
-    line-height: 28px;
-    padding-left: 20px;
+    line-height: 35px;
+    padding-left: 18px;
+    position: relative;
+}
+.membersQuote .quote{
+    color: #ffffff;
+    font-family: 'poppinsregular';
+    font-weight: bold;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: -11px;
+    top: 0px;
 }
 .testimonial{
     position: relative;
@@ -1535,8 +1610,8 @@ footer{
     line-height: 28px;
     padding:0px 12px;
     margin:0 8px;
-    border-left: 1px solid#00B5AA;
-    border-right: 1px solid#00B5AA;
+    border-left: 1px solid #00B5AA;
+    border-right: 1px solid #00B5AA;
 }
 
 /***  Individual page design ***/
@@ -1613,8 +1688,8 @@ footer{
     line-height: 28px;
     padding: 0px 12px;
     margin: 0 8px;
-    border-left: 1px solid#00B5AA;
-    border-right: 1px solid#00B5AA;
+    border-left: 1px solid #00B5AA;
+    border-right: 1px solid #00B5AA;
 }
 
 .faqMember-thumbnail{
@@ -1624,8 +1699,8 @@ footer{
 }
 .faqMember-thumbnail img{
     position: relative;
-    top: 15px;
-    right: 4px;
+    top: 8px;
+    right: 10px;
     z-index: -999;
 
 }
@@ -1677,13 +1752,13 @@ footer{
     color:#ffffff;
     margin-bottom: 41px;
 }
-#faq .card {
+.faq-accordian-list .accordion .card {
     margin-bottom: 28px;
     border: 0;
     border-radius:7px;
 }
 
-#faq .card .card-header {
+.faq-accordian-list .accordion .card .card-header {
     background: #FFFFFF;
     -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
             box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
@@ -1692,7 +1767,7 @@ footer{
     border-radius: 7px;
 }
 
-#faq .card .card-header .btn-header-link {
+.faq-accordian-list .accordion .card .card-header .btn-header-link {
     color: #fff;
     display: inline-flex;
     text-align: left;
@@ -1705,7 +1780,7 @@ footer{
     
 }
 
-#faq .card .card-header .btn-header-link:before {
+.faq-accordian-list .accordion .card .card-header .btn-header-link:before {
     content: "\f105";
     font-family: FontAwesome;
     font-size: 20px;
@@ -1714,7 +1789,7 @@ footer{
     
 }
 
-#faq .card .card-header .btn-header-link.collapsed {
+.faq-accordian-list .accordion .card .card-header .btn-header-link.collapsed {
     background: #FFFFFF;
     color: #707070;
     font-family: 'poppinsregular';
@@ -1725,7 +1800,7 @@ footer{
     border-radius:9px;
 }
 
-#faq .card .card-header .btn-header-link.collapsed:before {
+.faq-accordian-list .accordion .card .card-header .btn-header-link.collapsed:before {
     content: "\f107";
     
 }
@@ -2056,8 +2131,9 @@ textarea.form-control::placeholder{
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 90%;
+    background-size:contain;
     height:100%;
+    text-align: center;
     
 }
 .company-page-banner .banner-right-col img{
@@ -3011,9 +3087,9 @@ ul.page-navigation li.page-link.active a{
     box-shadow: 0 3px 6px rgb(0 0 0 / 25%);
     border-radius: 10px;
     text-align: center;
-    padding: 80px 0;
+    padding: 70px 0;
     position: relative;
-    height:75vh;
+    height:80vh;
 }
 #qualityTab-Content .tab-pane .indicator-icon{
     margin-bottom: 28px;
@@ -3041,11 +3117,11 @@ ul.page-navigation li.page-link.active a{
 }
 #qualityTab-Content.tab-content .tab-pane.active{
     left:0;
-    animation: fadeInTab 0s;
-    -webkit-animation: fadeInTab 0s;
-    -moz-animation: fadeInTab 0s;
-    -o-animation: fadeInTab 0s;
-    -ms-animation: fadeInTab 0s;
+    animation: fadeInTab 1s;
+    -webkit-animation: fadeInTab 1s;
+    -moz-animation: fadeInTab 1s;
+    -o-animation: fadeInTab 1s;
+    -ms-animation: fadeInTab 1s;
 }
 #qualityTab-Content.tab-content .tab-pane.show.active.left{
     left:0;

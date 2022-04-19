@@ -12,7 +12,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/theme.css'>
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
-<body>
+<body class="inner-page">
  
   <div id="wrapper">
       <div class="overlay"></div>
@@ -26,7 +26,8 @@
           </header>
           <div class="site-bannersection certificateur-bannersection">
               <div class="banner-view twofourth-size-banner">
-                    <img src="images/business-people-day.png" class="banner-img"/>
+                    <img src="images/business-people-day.png" class="banner-img d-none d-md-block"/>
+                    <img src="images/who-wer-mobile-banner.png" class="banner-img d-block d-md-none"/>
               </div>
               <div class="twobyfour-banner-cover-overlay">
               </div>

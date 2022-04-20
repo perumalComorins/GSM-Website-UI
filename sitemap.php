@@ -37,9 +37,9 @@
               <div class="container container-75 reset-padding sitemap-container">
                 <div class="sitemap-row row">
                     <div class="col-md-8 reset-padding align-self-center">
-                        <div class="sitebar-row row">
-                          <div class="col-md-4 reset-padding">
-                              <div class="sitebar-box">
+                        <div class="sitebar-row">
+                          <ul class="parent-list reset-padding">
+                              <li class="sitebar-box">
                                 <h2>Main Content</h2>
                                 <ul>
                                   <li><a href="index.php">Home</a></li>
@@ -49,41 +49,37 @@
                                   <li><a href="recritment.php">Career</a></li>
                                   <li><a href="blog.php">Blog</a></li>
                                 </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-4 reset-padding">
-                              <div class="sitebar-box">
+                              </li>
+                              <li class="sitebar-box">
                                 <h2>Individual</h2>
                                 <ul>
                                   <li><a href="individual.php">Formations</a></li>
                                 </ul>
-                              </div>
-                              <div class="sitebar-box">
+                              </li>
+                              <li class="sitebar-box">
                                 <h2>Company</h2>
                                 <ul>
                                   <li><a href="qualified_staff.php">Team recruitment</a></li>
                                   <li><a href="qualified_staff.php">Upgrade Team</a></li>
                                 </ul>
-                              </div>
-                              <div class="sitebar-box">
+                              </li>
+                              <li class="sitebar-box">
                                 <h2>Organization</h2>
                                 <ul>
                                   <li><a href="organisation.php">Registration - Organization</a></li>
                                 </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-4 reset-padding">
-                              <div class="sitebar-box">
+                              </li>
+                              <li class="sitebar-box">
                                 <h2>Connections</h2>
                                 <ul>
                                   <li><a href="terms-privacy.php">CGUG</a></li>
                                   <li><a href="legal-notice.php">Credits</a></li>
                                   <li><a href="terms-privacy.php">Legal Notice</a></li>
-                                  </li><li><a href="terms-privacy.php">DPR</a></li>
+                                  <li><a href="terms-privacy.php">DPR</a></li>
                                   <li><a href="sitemap.php">Sitemap</a></li>
                                 </ul>
-                              </div>
-                          </div>
+                              </li>
+                          </ul>
                         </div>
                     </div>
                     <div class="col-md-4 reset-padding">
